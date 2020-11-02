@@ -1,0 +1,153 @@
+{
+  "name": "typescript-react-snippets",
+  "displayName": "typescript-react-snippets",
+  "publisher": "Thomb89",
+  "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/Thomb89/typescript-react-snippets.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/test/apollo-mock.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/test/apollo-mock.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/test/describe.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/test/describe.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/test/it.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/test/it.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/test/setup-tests.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/test/test-utils-custom-render.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/graphql/client-gql.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/graphql/context.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/graphql/resolver.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/graphql/server.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/graphql/type-defs.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/redux/configure-store.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/redux/create-slice.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/redux/create-reducer.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/redux/use-dispatch.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/redux/use-selector.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/redux/use-store.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-function-component.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/use-callback.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/use-effect.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/use-memo.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/use-ref.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/use-state.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/material-ui/make-styles.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/material-ui/use-styles.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-hook-form/use-form.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-router/use-history.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-router/use-location.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-router/use-params.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/react-router/use-route-match.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.81.1"
+  }
+}

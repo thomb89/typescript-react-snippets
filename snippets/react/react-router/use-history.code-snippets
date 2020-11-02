@@ -1,0 +1,7 @@
+{
+  "react-router useHistory hook": {
+    "prefix": "useHistory",
+    "body": ["const history = useHistory${0}();"],
+    "description": "react-router useHistory hook"
+  }
+}

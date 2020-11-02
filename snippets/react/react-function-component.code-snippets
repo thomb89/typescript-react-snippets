@@ -1,0 +1,20 @@
+{
+  "react function component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export type ${1/(.*)/${1:/capitalize}/}Props = {",
+      "  ${2:props: type;}",
+      "}",
+      "",
+      "export const ${1/(.*)/${1:/capitalize}/}: React.FC<${1/(.*)/${1:/capitalize}/}Props> = props => {",
+      "  return (",
+      "    $0",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "create a React.FC<T> skeleton"
+  }
+}

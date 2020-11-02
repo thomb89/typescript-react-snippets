@@ -1,0 +1,17 @@
+{
+  "Apollo Mock": {
+    "prefix": "apollo-mock",
+    "description": "boilerplate to apollo ",
+    "body": [
+      "import { MockedResponse } from '@apollo/client/testing';",
+      "",
+      "export const ${1:named}Mock: MockedResponse<${2}> = {",
+      "  request: {",
+      "    query: ${0}",
+      "  },",
+      "  result: undefined,",
+      "  error: undefined",
+      "};"
+    ]
+  }
+}

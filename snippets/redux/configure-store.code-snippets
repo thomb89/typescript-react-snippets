@@ -1,0 +1,17 @@
+{
+  "@reduxjs/toolkit configureStore": {
+    "prefix": "redux-configurestore",
+    "body": [
+      "import { combineReducers, configureStore } from '@reduxjs/toolkit';",
+      "",
+      "export const rootReducer = combineReducers({${0}});",
+      "",
+      "export const store = configureStore({",
+      "  reducer: rootReducer",
+      "})",
+      "",
+      "export type RootState = ReturnType<typeof rootReducer>;"
+    ],
+    "description": "@reduxjs/toolkit configureStore"
+  }
+}

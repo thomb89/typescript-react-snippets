@@ -1,0 +1,10 @@
+{
+  "react-hook-form useForm hook": {
+    "prefix": "useForm",
+    "body": [
+      "const useFormMethods = useForm${1}<${2:return Type}>({mode: 'onTouched', defaultValues: { $0 }});",
+      "const onSubmit =  useFormMethods.handleSubmit(async (data: $2) => {});"
+    ],
+    "description": "react-hook-form useForm hook"
+  }
+}

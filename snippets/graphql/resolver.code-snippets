@@ -1,0 +1,16 @@
+{
+  "resolver for graphql-code-generator": {
+    "prefix": "gql-resolve",
+    "body": [
+      "import { ${2:Query}Resolvers } from '${1: path to generated file}';",
+      "",
+      "",
+      "export const ${3:resolverName}Resolver: Pick<${2}Resolvers, '${3}'> = {",
+      "  ${3}: async (parent, args, ctx) => {",
+      "    $0",
+      "  },",
+      "};"
+    ],
+    "description": "resolver for graphql-code-generator"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "react-router useRouteMatch hook": {
+    "prefix": "useRouteMatch",
+    "body": ["const match = useRouteMatch(${0});"],
+    "description": "react-router useRouteMatch hook"
+  }
+}

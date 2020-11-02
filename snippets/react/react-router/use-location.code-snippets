@@ -1,0 +1,7 @@
+{
+  "react-router useLocation hook": {
+    "prefix": "useLocation",
+    "body": ["const location = useLocation${0}();"],
+    "description": "react-router useLocation hook"
+  }
+}

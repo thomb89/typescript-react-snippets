@@ -1,0 +1,14 @@
+{
+  "client": {
+    "prefix": "gql-client-def",
+    "body": [
+      "import { gql } from '@apollo/client';",
+      "",
+      "export const ${1:name}Defs = gql`",
+      "  ${2:query resolver($parameter: String!)} {",
+      "    $0",
+      "  }",
+      "`;"
+    ]
+  }
+}

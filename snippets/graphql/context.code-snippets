@@ -1,0 +1,15 @@
+{
+  "context for graphql-server": {
+    "prefix": "gql-context",
+    "body": [
+      "export type Context = {",
+      "  ${1: param: string}",
+      "};",
+      "",
+      "export const createContext = async (key?: string): Promise<Context> => {",
+      "  ${0}",
+      "};"
+    ],
+    "description": "context for graphql-server"
+  }
+}

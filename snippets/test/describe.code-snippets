@@ -1,0 +1,7 @@
+{
+  "basic Test Setup with describe": {
+    "prefix": "describe",
+    "body": ["describe('${1:ComponentName}', () => {", "  ${0}", "});", ""],
+    "description": "basic Test Setup with describe"
+  }
+}

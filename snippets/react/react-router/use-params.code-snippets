@@ -1,0 +1,7 @@
+{
+  "react-router useParams hook": {
+    "prefix": "useParams",
+    "body": ["const { $0 } = useParams${1}<${2:RouteParams}>();"],
+    "description": "react-router useParams hook"
+  }
+}
