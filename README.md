@@ -8,6 +8,7 @@ react, graphql and jest/testing-library
 - [graphql-code-generator](https://graphql-code-generator.com)
 - [apollo-server-express](https://www.apollographql.com/docs/)
 - [@apollo/client](https://www.apollographql.com/docs/)
+- [prisma 2](https://prisma.io)
 
 #### Redux:
 
@@ -45,6 +46,7 @@ react, graphql and jest/testing-library
 > - it (jest it shortcut)
 > - setupTests.ts (a boilerplate fore create-react-app src/setupTests.ts)
 > - test-utils.ts (a boilerplate for @testing-library/react which wraps everything in Redux, Apollo and React-Router)
+> - prisma-test-environment.js (a boilerplate for the prisma-client, that generates a database per test-setup, should be placed in the folder, where the schema.prisma is placed)
 
 > #### Redux
 >
