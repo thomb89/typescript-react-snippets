@@ -38,6 +38,7 @@ react, graphql and jest/testing-library
 > - gql-resolve (create resolvers from the graphql-code-generator output)
 > - gql-context (graphql context-boilerplate)
 > - server (graphl server-boilerplate)
+> - codegen.yml (codegen.yaml boilerplate for the backend, creates backend + client files from the same yaml)
 
 > #### Test
 >
