@@ -3,6 +3,7 @@
     "prefix": "gatsby-config",
     "body": [
       "module.exports = {",
+      "  pathPrefix: `/`,",
       "  siteMetadata: {",
       "    title: `${1}`,",
       "    description: `${2}`,",
