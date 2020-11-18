@@ -1,0 +1,18 @@
+{
+  "adds the exports.createPages function gatsby-node.js": {
+    "prefix": "gatsby-node-createPages",
+    "body": [
+      "exports.createPages = async ({ graphql, actions }) => {",
+      "  const { createPage } = actions;",
+      "  const ${1:Base}TemplatePath = path.resolve(`src/templates/${2}`);",
+      "  const result = await graphql`",
+      "    query CreatePagesQuery {",
+      "    }",
+      "  `",
+      "",
+      "  $0",
+      "}"
+    ],
+    "description": "adds the exports.createPages function gatsby-node.js"
+  }
+}

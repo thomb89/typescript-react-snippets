@@ -1,0 +1,26 @@
+{
+  "react function component": {
+    "prefix": "gatsby-rfc",
+    "body": [
+      "import React from 'react';",
+      "import { graphql, PageProps } from 'gatsby';",
+      "",
+      "export const query = graphql`",
+      "  query ${2/(.*)/${1:/capitalize}/} {",
+      "  }",
+      "`",
+      "",
+      "export type ${1/(.*)/${1:/capitalize}/}Props = PageProps<${1/(.*)/${1:/capitalize}/}>",
+      "",
+      "export const ${1/(.*)/${1:/capitalize}/}: React.FC<${1/(.*)/${1:/capitalize}/}Props> = props => {",
+      "  return (",
+      "    $0",
+      "  )",
+      "}",
+      "",
+      "export default ${1/(.*)/${1:/capitalize}/}",
+      ""
+    ],
+    "description": "create a React.FC<T> skeleton for gatsby"
+  }
+}

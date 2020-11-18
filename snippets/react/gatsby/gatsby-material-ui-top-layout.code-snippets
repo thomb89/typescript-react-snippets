@@ -1,0 +1,34 @@
+{
+  "add the top-layout for gatsby-theme-material-ui. it should be placed in a file under src/gatsby-theme-material-ui-top-layout/components/top-layout.tsx. Any Providers like Apollo or Redux should be also added to this file.": {
+    "prefix": "gatsby-material-ui-top-layout",
+    "body": [
+      "import React from 'react';",
+      "import Layout from '../../components/layout';",
+      "import { ThemeProvider, CssBaseline } from '@material-ui/core';",
+      "import { theme } from '../theme';",
+      "import { Helmet } from 'react-helmet';",
+      "",
+      "export type WrapWithProviderProps = {};",
+      "",
+      "export const WrapWithProvider: React.FC<WrapWithProviderProps> = (props) => {",
+      "  return (",
+      "    <React.Fragment>",
+      "      <Helmet>",
+      "        {/* To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <head> element. */}",
+      "        <meta name=\"viewport\" content=\"minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no\" />",
+      "        {props.children}",
+      "      </Helmet>",
+      "      <ThemeProvider theme={theme}>",
+      "        <CssBaseline />",
+      "        <Layout>{props.children}</Layout>;",
+      "      </ThemeProvider>",
+      "    </React.Fragment>",
+      "  );",
+      "};",
+      "",
+      "export default WrapWithProvider;",
+      ""
+    ],
+    "description": "add the top-layout for gatsby-theme-material-ui. it should be placed in a file under src/gatsby-theme-material-ui-top-layout/components/top-layout.tsx. Any Providers like Apollo or Redux should be also added to this file."
+  }
+}

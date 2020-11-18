@@ -152,6 +152,26 @@
       {
         "language": "javascript",
         "path": "./snippets/test/prisma-test-environment.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react/gatsby/gatsby-node-createPages.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react/gatsby/gatsby-config.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/gatsby/gatsby-material-ui-theme.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/gatsby/gatsby-material-ui-top-layout.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/gatsby/react-function-component-gatsby.code-snippets"
       }
     ]
   },
