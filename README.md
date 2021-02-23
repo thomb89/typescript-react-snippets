@@ -85,3 +85,4 @@ react, graphql and jest/testing-library
 > ##### NextJs
 >
 > - next-rfc (nextjs NextPage)
+> - next-apollo-server (apollo-server-micro boilerplate for /api/graphql.ts)
