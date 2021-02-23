@@ -73,3 +73,15 @@ react, graphql and jest/testing-library
 > - useLocation (add useLocation to React.FC)
 > - useParams (add useParams to React.FC)
 > - useRouteMatch (add useRouteMatch to React.FC)
+>
+> ##### Gatsby
+>
+> - gatsby-rfc
+> - gatsby-config
+> - gatsby-material-ui-theme
+> - gatsby-material-ui-top-layout
+> - gatsby-node-createPages
+>
+> ##### NextJs
+>
+> - next-rfc (nextjs NextPage)

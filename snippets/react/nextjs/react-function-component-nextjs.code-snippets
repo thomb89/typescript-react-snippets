@@ -1,0 +1,34 @@
+{
+  "react function component": {
+    "prefix": "next-rfc",
+    "body": [
+      "import { GetStaticProps, GetStaticPaths, GetServerSideProps, NextPage } from 'next';",
+      "",
+      "export const getStaticProps: GetStaticProps = async (context) => {",
+      "  // ...",
+      "  return {",
+      "    props: {},",
+      "  };",
+      "};",
+      "",
+      "export const getStaticPaths: GetStaticPaths = async () => {",
+      "  // ...",
+      "  return {",
+      "    props: {},",
+      "  };",
+      "};",
+      "",
+      "export const getServerSideProps: GetServerSideProps = async (context) => {",
+      "  // ...",
+      "  return {",
+      "    props: {},",
+      "  };",
+      "};",
+      "",
+      "const Index: NextPage = () => <h1>Hallo Welt</h1>;",
+      "",
+      "export default Index;"
+    ],
+    "description": "create a NextPage skeleton for nextjs"
+  }
+}
