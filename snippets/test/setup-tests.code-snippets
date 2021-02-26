@@ -15,7 +15,7 @@
       "    maxConcurrency: cpus().length / 2 + 1,",
       "    collectCoverage: false,",
       "    collectCoverageFrom: ['src/**/*.{ts,tsx}'],",
-      "    displayName: { name: 'connect-2-frontend', color: 'magenta' },",
+      "    displayName: { name: '${1:package-name}', color: 'magenta' },",
       "    globals: {",
       "      __DEV__: true,",
       "    },",
