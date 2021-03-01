@@ -27,9 +27,9 @@
       "  };",
       "};",
       "",
-      "const Index: NextPage = () => <h1>Hallo Welt</h1>;",
+      "const ${1/(.*)/${1:/capitalize}/}: NextPage = () => <h1>Hallo Welt</h1>;",
       "",
-      "export default Index;"
+      "export default ${1/(.*)/${1:/capitalize}/};"
     ],
     "description": "create a NextPage skeleton for nextjs"
   }
