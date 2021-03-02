@@ -2,7 +2,6 @@
   "react function component": {
     "prefix": "gatsby-rfc",
     "body": [
-      "import React from 'react';",
       "import { graphql, PageProps } from 'gatsby';",
       "",
       "export const query = graphql`",

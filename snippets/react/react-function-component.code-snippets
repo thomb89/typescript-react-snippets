@@ -2,8 +2,6 @@
   "react function component": {
     "prefix": "rfc",
     "body": [
-      "import React from 'react';",
-      "",
       "export type ${1/(.*)/${1:/capitalize}/}Props = {",
       "  ${2:props: type;}",
       "}",
