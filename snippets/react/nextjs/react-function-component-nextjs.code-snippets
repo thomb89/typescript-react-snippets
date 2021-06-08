@@ -2,7 +2,7 @@
   "react function component": {
     "prefix": "next-rfc",
     "body": [
-      "import { GetStaticProps, GetStaticPaths, GetServerSideProps, NextPage } from 'next';",
+      "import { NextPage } from 'next';",
       "",
       "type ${1/(.*)/${1:/capitalize}/}Props = {",
       "  $0",
