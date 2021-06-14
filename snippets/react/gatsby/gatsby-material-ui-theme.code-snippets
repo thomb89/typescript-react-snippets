@@ -1,7 +1,0 @@
-{
-  "add the theme for gatsby-theme-material-ui. it should be placed in a file under src/gatsby-theme-material-ui-top-layout/theme.ts(x)": {
-    "prefix": "gatsby-material-ui-theme",
-    "body": ["import { createMuiTheme } from '@material-ui/core';", "", "export const theme = createMuiTheme({});", "", "export default theme;", ""],
-    "description": "add the theme for gatsybe-theme-material-ui. it should be placed in a file under src/gatsby-theme-material-ui-top-layout/theme.ts(x)"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "material-ui makeStyles hook": {
-    "prefix": "makeStyles",
-    "body": ["const useStyles = makeStyles${1}(", "  createStyles${2}({", "    ${3:classname}: {", "      $0", "    }", "  })", ");"],
-    "description": "material-ui makeStyles hook"
-  }
-}

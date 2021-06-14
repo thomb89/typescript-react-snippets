@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -123,14 +123,6 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/react/material-ui/make-styles.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/material-ui/use-styles.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
         "path": "./snippets/react/react-hook-form/use-form.code-snippets"
       },
       {
@@ -154,32 +146,20 @@
         "path": "./snippets/test/prisma-test-environment.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/react/gatsby/gatsby-node-createPages.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/react/gatsby/gatsby-config.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/gatsby/gatsby-material-ui-theme.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/gatsby/gatsby-material-ui-top-layout.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/gatsby/react-function-component-gatsby.code-snippets"
-      },
-      {
         "language": "typescriptreact",
         "path": "./snippets/react/nextjs/react-function-component-nextjs.code-snippets"
       },
       {
         "language": "typescriptreact",
         "path": "./snippets/react/nextjs/use-router.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/tippyjs/import.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/tippyjs/use-singleton.code-snippets"
       }
     ]
   },

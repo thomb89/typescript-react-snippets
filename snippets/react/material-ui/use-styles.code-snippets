@@ -1,7 +1,0 @@
-{
-  "material-ui useStyles hook": {
-    "prefix": "useStyles",
-    "body": ["const css = useStyles()"],
-    "description": "material-ui useStyles hook"
-  }
-}

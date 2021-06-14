@@ -1,0 +1,7 @@
+{
+  "react useState hook": {
+    "prefix": "import-tippyjs",
+    "body": ["import Tippy, { useSingleton } from '@tippyjs/react';"],
+    "description": "@tippyjs/react import"
+  }
+}

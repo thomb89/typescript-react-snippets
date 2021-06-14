@@ -24,8 +24,10 @@ react, graphql and jest/testing-library
 - [React](https://reactjs.org)
 - [React-Router](https://reactrouter.com)
 - [React-Hook-Form](https://react-hook-form.com)
-- [Material-UI](https://material-ui.com/)
 - [react-redux](https://react-redux.js.org/introduction/quick-start)
+- [NextJS](https://nextjs.org/docs/getting-started)
+- [TippyJS](https://atomiks.github.io/tippyjs/)
+- [@tippyjs/react](https://github.com/atomiks/tippyjs-react)
 
 ## Features
 
@@ -73,16 +75,14 @@ react, graphql and jest/testing-library
 > - useLocation (add useLocation to React.FC)
 > - useParams (add useParams to React.FC)
 > - useRouteMatch (add useRouteMatch to React.FC)
->
-> ##### Gatsby
->
-> - gatsby-rfc
-> - gatsby-config
-> - gatsby-material-ui-theme
-> - gatsby-material-ui-top-layout
-> - gatsby-node-createPages
->
+
 > ##### NextJs
 >
 > - next-rfc (nextjs NextPage)
 > - next-apollo-server (apollo-server-micro boilerplate for /api/graphql.ts)
+> - useRouter (hook for useRouter)
+
+> ##### TippyJS
+>
+> - import-tippyjs (import for React-Component + useSingleton)
+> - useSingleton (hook for TippyJS to use a single Tooltip as source)
