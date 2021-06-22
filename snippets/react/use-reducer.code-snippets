@@ -1,0 +1,14 @@
+{
+  "react useReducer hook": {
+    "prefix": "useReducer",
+    "body": [
+      "  const [state, dispatch] = useReducer<Reducer<${1:{state: any}}, { type: ${2:'one' | 'two'}; payload: ${3:any} }>>(",
+      "    (state, action): ${1} => {",
+      "      $0      ",
+      "    }, ${4:{initialState: null}}",
+      "  );",
+      ""
+    ],
+    "description": "react useReducer hook"
+  }
+}
