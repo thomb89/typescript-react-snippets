@@ -6,7 +6,7 @@
       "// import Link from 'next/link';",
       "// import Image from 'next/image';",
       "// import Head from 'next/head';",
-      
+
       "",
       "type ${1/(.*)/${1:/capitalize}/}Props = {",
       "  $0",
@@ -38,8 +38,8 @@
       "  };",
       "};",
       "",
-      "const ${1/(.*)/${1:/capitalize}/}: NextPage<${1/(.*)/${1:/capitalize}/}Props> = (props) => {",
-      "  return <div />$0",
+      "const ${1/(.*)/${1:/capitalize}/}: NextPage<${1/(.*)/${1:/capitalize}/}Props> = ({$3}) => {",
+      "  return $0",
       "}",
       "",
       "export default ${1/(.*)/${1:/capitalize}/};"

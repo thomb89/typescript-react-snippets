@@ -6,7 +6,7 @@
       "  ${2:props: type;}",
       "}",
       "",
-      "export const ${1/(.*)/${1:/capitalize}/}: React.FC<${1/(.*)/${1:/capitalize}/}Props> = props => {",
+      "export const ${1/(.*)/${1:/capitalize}/}: React.FC<${1/(.*)/${1:/capitalize}/}Props> = ({$2}) => {",
       "  return (",
       "    $0",
       "  )",
