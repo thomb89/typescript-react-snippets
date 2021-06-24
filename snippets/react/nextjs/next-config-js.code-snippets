@@ -2,7 +2,13 @@
   "next-config-js": {
     "prefix": "next-config-js",
     "body": [
+      "const isProd = process.env.NODE_ENV === 'production';",
+      "",
       "module.exports = {",
+      "  env: {",
+      "  },",
+      "  basePath: isProd ? '' : '',",
+      "  assetPrefix: isProd ? '/' : '/', // assetPrefix requires the trailing slash",
       "  reactStrictMode: true,",
       "  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {",
       "    // Important: return the modified config",
