@@ -1,0 +1,27 @@
+{
+  "next-graphql": {
+    "prefix": "next-graphql",
+    "body": [
+      "import { ApolloServer } from 'apollo-server-micro';",
+      "import { NextApiRequest } from 'next';",
+      "",
+      "const apolloServer = new ApolloServer({",
+      "  typeDefs: undefined,",
+      "  resolvers: undefined,",
+      "  context: async ({ req }: { req: NextApiRequest }) => {",
+      "  },",
+      "  playground: process.env.NODE_ENV !== 'production',",
+      "});",
+      "",
+      "export const config = {",
+      "  api: {",
+      "    bodyParser: false,",
+      "  },",
+      "};",
+      "",
+      "export default apolloServer.createHandler({ path: '/api/graphql' });",
+      ""
+    ],
+    "description": "next-graphql"
+  }
+}
