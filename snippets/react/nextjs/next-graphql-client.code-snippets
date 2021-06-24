@@ -1,0 +1,29 @@
+{
+  "next-graphql-client": {
+    "prefix": "next-graphql-client",
+    "body": [
+      "import { ApolloClient, HttpLink, InMemoryCache, NormalizedCacheObject } from '@apollo/client';",
+      "",
+      "let client: ApolloClient<NormalizedCacheObject> | undefined = undefined;",
+      "",
+      "const createApolloClient = (ssrMode: boolean, cookie?: string) =>",
+      "  new ApolloClient({",
+      "    ssrMode,",
+      "    cache: new InMemoryCache(),",
+      "    link: new HttpLink({ uri: ssrMode ? 'http://localhost:3000/api/graphql' : '/api/graphql', credentials: 'same-origin', headers: { cookie } }),",
+      "    connectToDevTools: true,",
+      "  });",
+      "",
+      "export const getApolloClient = (cookie?: string) => {",
+      "  const ssrMode = typeof window === 'undefined';",
+      "",
+      "  const apolloClient = client ?? createApolloClient(ssrMode, cookie);",
+      "  if (!ssrMode) client = apolloClient;",
+      "",
+      "  return apolloClient;",
+      "};",
+      ""
+    ],
+    "description": "next-graphql-client"
+  }
+}
