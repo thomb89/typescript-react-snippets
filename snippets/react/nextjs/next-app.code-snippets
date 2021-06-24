@@ -1,0 +1,16 @@
+{
+  "next-app": {
+    "prefix": "next-app",
+    "body": [
+      "import { AppProps } from 'next/app';",
+      "",
+      "function MyApp({ Component, pageProps }: AppProps) {",
+      "  return <Component {...pageProps} />;",
+      "}",
+      "",
+      "export default MyApp;",
+      ""
+    ],
+    "description": "next-app"
+  }
+}

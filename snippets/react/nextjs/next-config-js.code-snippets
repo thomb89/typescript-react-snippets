@@ -1,0 +1,22 @@
+{
+  "next-config-js": {
+    "prefix": "next-config-js",
+    "body": [
+      "module.exports = {",
+      "  reactStrictMode: true,",
+      "  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {",
+      "    // Important: return the modified config",
+      "",
+      "    // fix for @prisma/client until undici is at version 4",
+      "    if (isServer) {",
+      "      config.externals.push('_http_common');",
+      "      config.externals.push('encoding');",
+      "    }",
+      "",
+      "    return config",
+      "  },",
+      "}"
+    ],
+    "description": "next-config-js"
+  }
+}

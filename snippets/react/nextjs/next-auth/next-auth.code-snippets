@@ -1,0 +1,37 @@
+{
+  "next-auth-setup": {
+    "prefix": "next-auth-setup",
+    "body": [
+      "import NextAuth from 'next-auth';",
+      "import Providers from 'next-auth/providers';",
+      "",
+      "export default NextAuth({",
+      "  secret: process.env.JWT,",
+      "  pages: {",
+      "    signIn: '/login',",
+      "  },",
+      "  session: {",
+      "    jwt: true,",
+      "  },",
+      "  providers: [",
+      "    Providers.Credentials({",
+      "      async authorize(credentials: { apiKey: string }, _req) {",
+      "        let keys: { frontend: string } = JSON.parse(process.env.API_KEYS!);",
+      "",
+      "        if (!process.env.PRODUCTION) return null;",
+      "",
+      "        if (keys.frontend === credentials.apiKey)",
+      "          return {",
+      "            name: 'evokom',",
+      "          };",
+      "",
+      "        return null;",
+      "      },",
+      "    }),",
+      "  ],",
+      "});",
+      ""
+    ],
+    "description": "next-auth-setup"
+  }
+}
