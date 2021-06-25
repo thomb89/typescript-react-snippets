@@ -2,13 +2,33 @@
   "context for graphql-server": {
     "prefix": "gql-context",
     "body": [
+      "import { PrismaClient } from '@prisma/client';",
+      "import { User } from 'next-auth';",
+      "",
+      "let prisma: PrismaClient;",
+      "",
+      "if (process.env.NODE_ENV === 'production') {",
+      "  prisma = new PrismaClient();",
+      "} else {",
+      "  if (!global.prisma) {",
+      "    global.prisma = new PrismaClient();",
+      "  }",
+      "",
+      "  prisma = global.prisma;",
+      "}",
+      "",
       "export type Context = {",
-      "  ${1: param: string}",
+      "  prisma: PrismaClient;",
+      "  authorized: boolean;",
       "};",
       "",
-      "export const createContext = async (key?: string): Promise<Context> => {",
-      "  ${0}",
-      "};"
+      "export const createContext = async (user?: User): Promise<Context> => {",
+      "  return {",
+      "    prisma,",
+      "    authorized: user?.name !== undefined && user?.name === process.env.CUSTOMER_CONTROL_USER,",
+      "  };",
+      "};",
+      ""
     ],
     "description": "context for graphql-server"
   }

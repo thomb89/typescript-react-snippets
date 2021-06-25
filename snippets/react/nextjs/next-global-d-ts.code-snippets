@@ -1,0 +1,7 @@
+{
+  "global file for nextjs": {
+    "prefix": "next-global-d-ts",
+    "body": ["declare namespace NodeJS {", "  export interface Global {", "    prisma: any;", "  }", "}", ""],
+    "description": "global file for nextjs"
+  }
+}
