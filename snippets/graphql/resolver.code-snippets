@@ -6,7 +6,7 @@
       "",
       "",
       "export const ${3:resolverName}Resolver: Pick<${2}Resolvers, '${3}'> = {",
-      "  ${3}: async (_parent, {}, {}) => {",
+      "  ${3}: async ({}, {}, {}) => {",
       "    $0",
       "  },",
       "};"
