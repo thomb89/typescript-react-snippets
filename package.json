@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -200,10 +200,6 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react/nextjs/next-auth/use-session.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/react/nextjs/next-global-d-ts.code-snippets"
       },
       {
         "language": "javascript",

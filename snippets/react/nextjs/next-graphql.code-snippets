@@ -9,6 +9,7 @@
       "const apolloServer = new ApolloServer({",
       "  typeDefs: undefined,",
       "  resolvers: undefined,",
+      "  rootValue: {},",
       "  context: async ({ req }: { req: NextApiRequest }) => {",
       "    const session = await getSession({ req });",
       "",
