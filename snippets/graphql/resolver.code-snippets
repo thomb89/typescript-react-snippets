@@ -1,33 +1,36 @@
 {
   "resolver for graphql-code-generator": {
-    "prefix": "gql-resolver",
+    "prefix": "gql-resolver-simple",
     "body": [
       "import { ${2:Query}Resolvers } from '${1: path to generated file}';",
       "",
-      "",
-      "export const ${3:resolverName}Resolver: ${2}Resolvers = {",
+      "export const ${2}Resolvers: ${2}Resolvers = {",
       "  $0",
       "};"
     ],
     "description": "resolver for graphql-code-generator"
   },
   "partial resolver for graphql-code-generator": {
-    "prefix": "gql-resolver-pick-with-function",
+    "prefix": "gql-resolver-custom-parent",
     "body": [
-      "import { ${2:Query}Resolvers } from '${1: path to generated file}';",
+      "import { ${2:Query}Resolvers } from '${1:path to generated file}';",
+      "import { Prisma } from '${3:@prisma/client}';",
+      "import { Context } from '${4:path to context file}'",
       "",
+      "const parent = Prisma.validator<Prisma.${5:class}Args>()({",
+      "  $6",
+      "});",
+      "export type parent = Prisma.${5}GetPayload<typeof parent>;",
       "",
-      "export const ${3:resolverName}Resolver: Pick<${2}Resolvers, '${3}'> = {",
-      "  ${3}: async ({}, {}, {}) => {",
-      "    $0",
-      "  },",
+      "export const ${2:resolverName}Resolvers: ${2}Resolvers<Context, Partial<parent>> = {",
+      "  $0",
       "};"
     ],
     "description": "resolver for graphql-code-generator"
   },
 
   "function for resolver from graphql-code-generator": {
-    "prefix": "gql-resolver-function",
+    "prefix": "gql-resolver-child-function",
     "body": ["${1:name}: async ({}, {}, {}) => {", "  $0", "},"],
     "description": "resolver for graphql-code-generator"
   }

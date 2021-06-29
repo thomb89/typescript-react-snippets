@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -220,6 +220,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/custom/use-toast.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/tailwind-css/config.code-snippets"
       }
     ]
   },
