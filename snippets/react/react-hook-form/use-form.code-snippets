@@ -2,7 +2,7 @@
   "react-hook-form useForm hook": {
     "prefix": "useForm",
     "body": [
-      "const { register, handleSubmit } = useForm${1}<${2:{}}>({mode: 'onTouched', defaultValues: { $0 }});",
+      "const { register, handleSubmit, formState: { errors, isDirty }, } = useForm${1}<${2:{}}>({mode: 'onTouched', defaultValues: { $0 }});",
       "const onFormSubmit =  handleSubmit(async (data: $2) => {});"
     ],
     "description": "react-hook-form useForm hook"
