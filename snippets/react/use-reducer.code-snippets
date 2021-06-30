@@ -2,10 +2,10 @@
   "react useReducer hook": {
     "prefix": "useReducer",
     "body": [
-      "  const [state, dispatch] = useReducer<Reducer<${1:{state: any}}, { type: ${2:'one' | 'two'}; payload: ${3:any} }>>(",
+      "  const [state, dispatch] = useReducer$2<Reducer$3<${1:{state: any}}, { type: ${4:'one' | 'two'}; payload: ${5:any} }>>(",
       "    (state, action): ${1} => {",
       "      $0      ",
-      "    }, ${4:{initialState: null}}",
+      "    }, ${6:{initialState: null}}",
       "  );",
       ""
     ],

@@ -1,7 +1,7 @@
 {
   "react useState hook": {
     "prefix": "useSingleton",
-    "body": ["const [source, target] = useSingleton();"],
+    "body": ["const [source, target] = useSingleton$1();$0"],
     "description": "Tippy.js useSignleton hook for React"
   }
 }
