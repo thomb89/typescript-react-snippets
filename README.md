@@ -22,7 +22,6 @@ react, graphql and jest/testing-library
 #### React
 
 - [React](https://reactjs.org)
-- [React-Router](https://reactrouter.com)
 - [React-Hook-Form](https://react-hook-form.com)
 - [react-redux](https://react-redux.js.org/introduction/quick-start)
 - [NextJS](https://nextjs.org/docs/getting-started)

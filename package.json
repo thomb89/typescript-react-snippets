@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.48",
+  "version": "0.0.49",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -144,22 +144,6 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react/react-hook-form/use-form.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-router/use-history.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-router/use-location.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-router/use-params.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-router/use-route-match.code-snippets"
       },
       {
         "language": "javascript",
