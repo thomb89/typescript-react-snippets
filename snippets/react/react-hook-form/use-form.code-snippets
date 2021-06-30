@@ -2,8 +2,8 @@
   "react-hook-form useForm hook": {
     "prefix": "useForm",
     "body": [
-      "const { $0 } = useForm${1}<${2:{}}>({mode: 'onTouched', defaultValues: { $3 }});",
-      "const onFormSubmit =  useFormMethods.handleSubmit(async (data: $2) => {});"
+      "const { register, handleSubmit } = useForm${1}<${2:{}}>({mode: 'onTouched', defaultValues: { $0 }});",
+      "const onFormSubmit =  handleSubmit(async (data: $2) => {});"
     ],
     "description": "react-hook-form useForm hook"
   }
