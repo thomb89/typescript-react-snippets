@@ -9,11 +9,11 @@
 
       "",
       "type ${1/(.*)/${1:/capitalize}/}Props = {",
-      "  $0",
+      "  $2",
       "};",
       "",
       "type paths = {",
-      "  $2",
+      "  $4",
       "}",
       "",
       "export const getStaticProps: GetStaticProps<${1/(.*)/${1:/capitalize}/}Props, paths> = async (context) => {",
