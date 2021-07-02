@@ -41,7 +41,7 @@
       "",
       "    const passwordButtons = (",
       "      <div className=\"w-16 flex justify-center items-center bg-gray-600 rounded-r-lg text-primary-500\">",
-      "        {type === type ? (",
+      "        {inputType === type ? (",
       "          <div",
       "            onClick={() => setInputType('text')}",
       "            className=\"hover:cursor-pointer hover:animate-pulse w-full h-full flex justify-center items-center\">",
