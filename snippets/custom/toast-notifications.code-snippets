@@ -1,6 +1,6 @@
 {
-  "toast-notifications": {
-    "prefix": "rfc-toast-notifications",
+  "customtoast-notifications": {
+    "prefix": "custom-toast-notifications-rfc",
     "body": [
       "import { useCallback, useEffect, useState, createContext, useContext, useReducer, Reducer, Dispatch, ReducerAction, useMemo } from 'react';",
       "import { createPortal } from 'react-dom';",
@@ -344,6 +344,6 @@
       "//#endregion",
       ""
     ],
-    "description": "toast-notifications"
+    "description": "custom toast-notifications"
   }
 }
