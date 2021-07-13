@@ -1,11 +1,9 @@
 {
   "Apollo Mock": {
     "prefix": "apollo-mock",
-    "description": "boilerplate to apollo ",
+    "description": "boilerplate to mock apollo-client operations ",
     "body": [
-      "import { MockedResponse } from '@apollo/client/testing';",
-      "",
-      "export const ${1:named}Mock: MockedResponse<${2}> = {",
+      "const ${1:named}Mock: MockedResponse<${2}> = {",
       "  request: {",
       "    query: ${0}",
       "  },",
