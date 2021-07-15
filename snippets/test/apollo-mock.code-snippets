@@ -3,9 +3,9 @@
     "prefix": "apollo-mock",
     "description": "boilerplate to mock apollo-client operations ",
     "body": [
-      "const ${1:named}Mock: MockedResponse<${2}> = {",
+      "const ${1:named}Mock: MockedResponse${2}<${3}> = {",
       "  request: {",
-      "    query: ${0}",
+      "    query: ${0},",
       "  },",
       "  result: undefined,",
       "  error: undefined",
