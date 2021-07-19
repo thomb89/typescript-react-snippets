@@ -19,6 +19,8 @@
       "      config.externals.push('encoding');",
       "    }",
       "",
+      "    config.experiments = { topLevelAwait: true };",
+      "",
       "    return config",
       "  },",
       "}"

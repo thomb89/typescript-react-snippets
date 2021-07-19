@@ -2,7 +2,7 @@
   "nextjs-jest": {
     "prefix": "nextjs-jest",
     "body": [
-      "  \"install-jest-dependencies\": \"yarn add -D jest jest-html-reporters jest-mock-extended jest-watch-typeahead babel-jest identity-obj-proxy mutationobserver-shim ts-jest\",",
+      "  \"install-jest-dependencies\": \"npm install -D jest jest-html-reporters jest-mock-extended jest-watch-typeahead babel-jest identity-obj-proxy mutationobserver-shim ts-jest\",",
       "  \"babel\": {",
       "    \"presets\": [",
       "      \"next/babel\"",
