@@ -6,6 +6,7 @@
       "import Providers from 'next-auth/providers';",
       "",
       "export default NextAuth({",
+      "  debug: process.env.NODE_ENV !== 'production',",
       "  secret: process.env.JWT,",
       "  pages: {",
       "    signIn: '/login',",
