@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.70",
+  "version": "0.0.71",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -192,6 +192,10 @@
       {
         "language": "javascript",
         "path": "./snippets/react/nextjs/next-config-js.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react/nextjs/next-config-sentry-js.code-snippets"
       },
       {
         "language": "typescriptreact",
