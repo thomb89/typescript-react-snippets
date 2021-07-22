@@ -206,7 +206,7 @@
       "      {portalRoot &&",
       "        toasts.length > 0 &&",
       "        createPortal(",
-      "          <div className={`${className ?? 'fixed top-1 right-1 md:p-4 w-full md:w-160 box-border text-white z-50'}`}>",
+      "          <div className={`${className ?? 'fixed top-1 right-1 w-full md:top-4 md:right-4 md:w-160 box-border text-white z-50'}`}>",
       "            {toasts.slice(0, maxDisplay).map((toast) => (",
       "              <Toast",
       "                key={toast.id}",
