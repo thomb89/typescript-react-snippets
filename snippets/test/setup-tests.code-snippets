@@ -1,31 +1,19 @@
 {
-  "boilerplate for the file setupTests.ts in ./src ": {
-    "prefix": "setupTests.ts",
+  "boilerplate for the file setupFilesAfterEnv ": {
+    "prefix": "test-setup",
     "body": [
-      "import { Config } from '@jest/types';",
-      "import { cpus } from 'os';",
+      "import { loadEnvConfig } from '@next/env';",
       "",
       "import 'mutationobserver-shim';",
       "import '@testing-library/jest-dom';",
       "",
-      "const config = async (): Promise<Config.InitialOptions> => {",
-      "  return {",
-      "    verbose: true,",
-      "    errorOnDeprecated: true,",
-      "    maxConcurrency: cpus().length / 2 + 1,",
-      "    collectCoverage: false,",
-      "    collectCoverageFrom: ['src/**/*.{ts,tsx}'],",
-      "    displayName: { name: '${1:package-name}', color: 'magenta' },",
-      "    globals: {",
-      "      __DEV__: true,",
-      "    },",
-      "    testTimeout: 5000,",
-      "  };",
-      "};",
+      "const projecctDir = process.cwd();",
+      "loadEnvConfig(projecctDir, false, { error: console.error, info: () => {} });",
       "",
-      "export default config;",
+      "beforeEach(() => jest.useFakeTimers());",
+      "afterEach(() => jest.useRealTimers());",
       ""
     ],
-    "description": "boilerplate for the file setupTests.ts in ./src "
+    "description": "boilerplate for the file setupTestsAfterEnv "
   }
 }

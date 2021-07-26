@@ -22,6 +22,8 @@
       "  basePath: isProd ? '' : '',",
       "  assetPrefix: isProd ? '/' : '/', // assetPrefix requires the trailing slash",
       "  reactStrictMode: true,",
+      "  poweredByHeader: false,",
+      "  productionBrowserSourceMaps: false,",
       "  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {",
       "    // Important: return the modified config",
       "",
