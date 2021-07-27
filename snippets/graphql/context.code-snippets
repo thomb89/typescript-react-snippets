@@ -5,7 +5,7 @@
       "import { PrismaClient } from '@prisma/client';",
       "import { User } from 'next-auth';",
       "",
-      "type global = NodeJS.Global & typeof globalThis & { prisma: any };",
+      "type global = typeof globalThis & { prisma: any };",
       "",
       "let prisma: PrismaClient;",
       "",
