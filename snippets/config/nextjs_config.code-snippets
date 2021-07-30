@@ -1,0 +1,32 @@
+{
+  "nextjs.config.js boilerplate": {
+    "prefix": "next-config",
+    "body": [
+      "const isProd = process.env.NODE_ENV === 'production';",
+      "",
+      "module.exports = {",
+      "  env: {",
+      "  },",
+      "  basePath: isProd ? '' : '',",
+      "  assetPrefix: isProd ? '/' : '/', // assetPrefix requires the trailing slash",
+      "  reactStrictMode: true,",
+      "  poweredByHeader: false,",
+      "  productionBrowserSourceMaps: false,",
+      "  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {",
+      "    // Important: return the modified config",
+      "",
+      "    // fix for @prisma/client until undici is at version 4",
+      "    if (isServer) {",
+      "      config.externals.push('_http_common');",
+      "      config.externals.push('encoding');",
+      "    }",
+      "",
+      "    config.experiments = { topLevelAwait: true };",
+      "",
+      "    return config",
+      "  },",
+      "}"
+    ],
+    "description": "next-config-js"
+  }
+}

@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.0.77",
+  "version": "0.0.78",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -18,216 +18,208 @@
   "contributes": {
     "snippets": [
       {
-        "language": "json",
-        "path": "./snippets/test/nextjs-jest-setup.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/test/mock-context.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/test/apollo-mock.code-snippets"
+        "language": "typescriptreact",
+        "path": "./snippets/components/custom_input.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/test/apollo-mock.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/test/describe.code-snippets"
+        "path": "./snippets/components/custom_tabs.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/test/describe.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/test/it.code-snippets"
+        "path": "./snippets/components/custom_toast-notifications.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/test/it.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/test/setup-tests.code-snippets"
+        "path": "./snippets/components/react_function-component.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/test/test-utils-custom-render.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/client-gql.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/context.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/resolver.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/server.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/type-defs.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/graphql/make-var.code-snippets"
+        "path": "./snippets/components/nextjs_function-component.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/graphql/make-var.code-snippets"
+        "path": "./snippets/components/nextjs_app.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/graphql/use-reactive-var.code-snippets"
+        "path": "./snippets/components/nextjs_document.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/custom_use-toast.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/tippyjs_use-singleton.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/next-auth_use-session.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-state.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-ref.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react-hook-form_use-form.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-callback.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-reducer.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-memo.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-effect.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-context.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/nextjs_use-router.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/redux_use-dispatch.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/redux_use-selector.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/redux_use-store.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/apollo-client_use-reactive-var.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/api/next-auth/next-auth.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/api/nextjs_graphql-server.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/api/nextjs_graphql-client.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/api/nextjs_graphql-client.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/api/graphql_resolver.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/config/nextjs_config.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/config/nextjs_config-sentry.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/config/tailwind-css_config.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/config/jest_prisma-test-environment.code-snippets"
       },
       {
         "language": "yaml",
-        "path": "./snippets/graphql/codegen.code-snippets"
+        "path": "./snippets/config/graphql-codegen.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/config/nextjs_jest.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/config/testing-library_test-utils.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/redux/configure-store.code-snippets"
+        "path": "./snippets/config/jest_setup-tests.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/redux/create-slice.code-snippets"
+        "path": "./snippets/config/jest_mocked-context.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/redux/create-reducer.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/redux/use-dispatch.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/redux/use-selector.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/redux/use-store.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-function-component.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-callback.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-effect.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-memo.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-ref.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-state.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-reducer.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/use-context.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/react-hook-form/use-form.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/test/prisma-test-environment.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/react-function-component-nextjs.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/use-router.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/next-app.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/next-document.code-snippets"
+        "path": "./snippets/config/graphql_context.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/react/nextjs/next-graphql.code-snippets"
+        "path": "./snippets/util/jest_it.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/util/jest_it.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/react/nextjs/next-graphql-client.code-snippets"
+        "path": "./snippets/util/jest_describe.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/next-graphql-client.code-snippets"
+        "path": "./snippets/util/jest_describe.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/react/nextjs/next-auth/next-auth.code-snippets"
+        "path": "./snippets/util/apollo_mocked-response.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/react/nextjs/next-auth/use-session.code-snippets"
+        "path": "./snippets/util/apollo-client_mocked-response.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/react/nextjs/next-config-js.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/react/nextjs/next-config-sentry-js.code-snippets"
+        "language": "typescript",
+        "path": "./snippets/util/apollo-client_make-var.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/tippyjs/import.code-snippets"
+        "path": "./snippets/util/apollo-client_make-var.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/redux_configure-store.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/redux_create-slice.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/redux_create-reducer.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/graphql_definition.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/tippyjs/use-singleton.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/custom/custom-input.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/custom/custom-tabs.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/custom/custom-toast-notifications.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/custom/use-toast.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/tailwind-css/config.code-snippets"
+        "path": "./snippets/import/tippyjs_import.code-snippets"
       }
     ]
   },

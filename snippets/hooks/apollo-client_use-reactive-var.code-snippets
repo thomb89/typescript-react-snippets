@@ -1,0 +1,7 @@
+{
+  "useReactiveVar": {
+    "prefix": "useReactiveVar",
+    "body": ["const $1 = useReactiveVar$2($3);$0"],
+    "description": "useReactiveVar hook from @apollo/client"
+  }
+}

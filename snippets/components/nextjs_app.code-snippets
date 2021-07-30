@@ -1,0 +1,16 @@
+{
+  "nextjs custom _app.ts": {
+    "prefix": ["nextjs_app", "_app"],
+    "body": [
+      "import { AppProps } from 'next/app';",
+      "",
+      "const App = ({ Component, pageProps }: AppProps) => {",
+      "  return <Component {...pageProps} />;",
+      "}",
+      "",
+      "export default App;",
+      ""
+    ],
+    "description": "nextjs custom _app.ts"
+  }
+}

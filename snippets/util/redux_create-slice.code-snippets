@@ -1,0 +1,29 @@
+{
+  "@reduxjs/toolkit createSlice": {
+    "prefix": "redux_create-slice",
+    "body": [
+      "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
+      "",
+      "const ${1:name}Slice = createSlice({",
+      "  name: '${1}',",
+      "  initialState: {",
+      "    ${2:id: 0 as number | undefined}",
+      "  },",
+      "  reducers: {",
+      "    // use  redux-create-reducer",
+      "    ${0} ",
+      "  }",
+      "})",
+      "",
+      "// Extract the action creators object and the reducer",
+      "const { actions, reducer } = ${1:name}Slice",
+      "",
+      "// Extract and export each action creator by name",
+      "export const {  } = actions",
+      "",
+      "// Export the reducer, either as a default or named export",
+      "export const ${1:name}Reducer =  reducer"
+    ],
+    "description": "@reduxjs/toolkit createSlice"
+  }
+}

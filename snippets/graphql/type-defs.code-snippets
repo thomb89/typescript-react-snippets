@@ -1,7 +1,0 @@
-{
-  "type defs for graphql-schema": {
-    "prefix": "gql-type-def",
-    "body": ["import { gql } from '${1:apollo-server-core}';", "", "export const ${2:type}Defs = gql`", "  ${0}", "`;", ""],
-    "description": "type defs for graphql-schema"
-  }
-}
