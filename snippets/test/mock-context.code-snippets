@@ -1,0 +1,37 @@
+{
+  "next-mocked-context": {
+    "prefix": "next-mocked-context",
+    "body": [
+      "import { mockDeep, MockProxy } from 'jest-mock-extended';",
+      "import { PrismaClient } from '${1:@prisma/client}';",
+      "import { Context } from '${2:../../graphql/context}';",
+      "",
+      "export type { Context } from '${2:../../graphql/context}';",
+      "",
+      "type setReturnValueParams = {",
+      "  function: any;",
+      "  value: any;",
+      "};",
+      "export type MockedContext = Context & {",
+      "  prisma: MockProxy<PrismaClient>;",
+      "  setReturnValue: (options: setReturnValueParams) => void;",
+      "  setRejectValue: (options: setReturnValueParams) => void;",
+      "};",
+      "",
+      "export const createMockedContext = (isAuthorized: boolean = true): MockedContext => {",
+      "  const prisma = mockDeep<PrismaClient>();",
+      "",
+      "  const setReturnValue = ({ proxyFn, value }: setReturnValueParams): void => proxyFn.mockReturnValueOnce(value);",
+      "",
+      "  // @ts-ignore",
+      "  return {",
+      "    prisma,",
+      "    isAuthorized,",
+      "    setReturnValue,",
+      "  };",
+      "};",
+      ""
+    ],
+    "description": "next-mocked-context"
+  }
+}
