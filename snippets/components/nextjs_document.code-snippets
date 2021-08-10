@@ -9,7 +9,7 @@
       "    return (",
       "      <Html className=\"dark\">",
       "        <Head></Head>",
-      "        <body className=\"bg-white dark:bg-gray-800 w-screen h-screen\">",
+      "        <body className=\"bg-white dark:bg-gray-800 w-auto h-screen\">",
       "          <Main />",
       "          <NextScript />",
       "        </body>",
