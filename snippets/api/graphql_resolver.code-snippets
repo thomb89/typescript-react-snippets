@@ -1,13 +1,7 @@
 {
   "resolver for graphql-code-generator": {
     "prefix": "graphql_resolver-simple",
-    "body": [
-      "import { ${2:Query}Resolvers } from '${1: path to generated file}';",
-      "",
-      "export const ${2}Resolvers: ${2}Resolvers = {",
-      "  $0",
-      "};"
-    ],
+    "body": ["import { ${2:Query}Resolvers } from '${1: path to generated file}';", "", "export const ${2}: ${2}Resolvers = {", "  $0", "};"],
     "description": "resolver for graphql-code-generator"
   },
   "partial resolver for graphql-code-generator": {
@@ -22,7 +16,7 @@
       "});",
       "export type parent = Prisma.${5}GetPayload<typeof parent>;",
       "",
-      "export const ${2:resolverName}Resolvers: ${2}Resolvers<Context, Partial<parent>> = {",
+      "export const ${2:resolverName}: ${2}Resolvers<Context, Partial<parent>> = {",
       "  $0",
       "};"
     ],
