@@ -4,11 +4,14 @@
     "body": [
       "export type ${1/(.*)/${1:/capitalize}/}Props = {",
       "  ${2:props: type;}",
+      "  className?: string;",
       "}",
       "",
       "export const ${1/(.*)/${1:/capitalize}/}: React.FC<${1/(.*)/${1:/capitalize}/}Props> = ({$3}) => {",
       "  return (",
-      "    $0",
+      "    <div className={`${className}`}>",
+      "      $0",
+      "    </div>",
       "  )",
       "}",
       ""
