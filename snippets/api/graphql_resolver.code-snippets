@@ -25,7 +25,7 @@
 
   "function for resolver from graphql-code-generator": {
     "prefix": "graphql_resolver-child-function",
-    "body": ["${1:name}: async ({}, {}, {}) => {", "  $0", "},"],
+    "body": ["${1:name}: async ({$2}, {$3}, {$4}) => {", "  $0", "},"],
     "description": "resolver for graphql-code-generator"
   }
 }
