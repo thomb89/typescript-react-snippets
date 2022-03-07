@@ -1,0 +1,41 @@
+{
+  "tsconfig.json": {
+    "prefix": "tsconfig.json",
+    "description": "basic tsconfig file",
+    "body": [
+      "{",
+      "  \"compilerOptions\": {",
+      "    \"outDir\": \"dist\" /* Redirect output structure to the directory. */,",
+      "    \"rootDir\": \"src\" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,",
+      "    \"declaration\": true,",
+      "    \"declarationMap\": false,",
+      "    \"removeComments\": false,",
+      "    \"emitDecoratorMetadata\": true,",
+      "    \"experimentalDecorators\": true,",
+      "    \"sourceMap\": true,",
+      "    \"incremental\": true,",
+      "    \"importHelpers\": true,",
+      "    \"resolveJsonModule\": true,",
+      "    \"target\": \"esnext\",",
+      "    \"module\": \"CommonJS\",",
+      "    \"strict\": true,",
+      "    \"strictNullChecks\": true,",
+      "    \"esModuleInterop\": true,",
+      "    \"alwaysStrict\": true,",
+      "    \"noImplicitAny\": true,",
+      "    \"noUnusedLocals\": true,",
+      "    \"noUnusedParameters\": true,",
+      "    \"noImplicitReturns\": true,",
+      "    \"noFallthroughCasesInSwitch\": true,",
+      "    \"moduleResolution\": \"node\",",
+      "    \"forceConsistentCasingInFileNames\": true,",
+      "    \"skipLibCheck\": true,",
+      "    \"useUnknownInCatchVariables\": false,",
+      "    \"composite\": true",
+      "  },",
+      "  \"exclude\": [\"**/node_modules\", \"**/dist\", \"**/build\"]",
+      "}",
+      ""
+    ]
+  }
+}
