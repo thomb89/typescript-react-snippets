@@ -2,11 +2,12 @@
   "create a NextJS API endpoint": {
     "prefix": "nextjs-api",
     "body": [
-      "import { MicroRequest } from 'apollo-server-micro/dist/types';",
-      "import { ServerResponse } from 'http';",
+      "import { NextApiRequest, NextApiResponse } from 'next';",
       "",
-      "const handler = async (req: MicroRequest, res: ServerResponse) => {",
-      "  if (req.method !== '${1:GET}') return;",
+      "const handler = async (req: NextApiRequest, res: NextApiResponse): Promise<${1:any} | undefined> => {",
+      "  if (req.method !== '${2:GET}') return;",
+      "",
+      "  $0",
       "};",
       "",
       "export default handler;",

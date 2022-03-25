@@ -80,6 +80,7 @@ react, graphql and jest/testing-library
 > - next-rfc (nextjs NextPage)
 > - next-apollo-server (apollo-server-micro boilerplate for /api/graphql.ts)
 > - useRouter (hook for useRouter)
+> - next-api (create a simple API endpoint)
 
 > ##### TippyJS
 >
