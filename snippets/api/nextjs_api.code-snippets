@@ -4,7 +4,7 @@
     "body": [
       "import { NextApiRequest, NextApiResponse } from 'next';",
       "",
-      "const handler = async (req: NextApiRequest, res: NextApiResponse): Promise<${1:any} | undefined> => {",
+      "const handler = async (req: NextApiRequest, res: NextApiResponse): Promise<void> => {",
       "  if (req.method !== '${2:GET}') return;",
       "",
       "  $0",
