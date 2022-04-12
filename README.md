@@ -55,6 +55,8 @@ react, graphql and jest/testing-library
 > - redux-configurestore (boilerplate to create the RootState + RootReducer)
 > - redux-create-slice (boilerplate to create a State + Reducer slice)
 > - redux-create-reducer (add actions to redux-create-slice)
+> - redux-create-api (add an RTK Query reducer)
+> - redux-api-endpoint (add an RTK Query or Mutation endpoint)
 > - useDispatch (add useDispatch to React.FC)
 > - useSelector (add useSelector to React.FC)
 > - useStore (add useStore to React.FC)

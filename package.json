@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -140,6 +140,14 @@
       {
         "language": "typescript",
         "path": "./snippets/util/redux_create-reducer.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/redux_create-api.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/util/redux_api-endpoint.code-snippets"
       },
       {
         "language": "typescript",
