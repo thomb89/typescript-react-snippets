@@ -7,9 +7,9 @@
       "export const rootReducer = combineReducers({${0}});",
       "",
       "export const store = configureStore({",
-      "  reducer: rootReducer",
+      "  reducer: rootReducer,",
       "  // don't forget to add middleware from api",
-      "    middleware: (getDefaultMiddleWare) => getDefaultMiddleWare().concat([]),",
+      "  middleware: (getDefaultMiddleWare) => getDefaultMiddleWare().concat([]),",
       "})",
       "",
       "export type RootState = ReturnType<typeof rootReducer>;"
