@@ -5,14 +5,15 @@
       "import { combineReducers, configureStore } from '@reduxjs/toolkit';",
       "",
       "export const rootReducer = combineReducers({${0}});",
+      "export type RootState = ReturnType<typeof rootReducer>;",
       "",
-      "export const store = configureStore({",
+      "export const getStoer = (preloadedState?: Partial<RootState>) => configureStore({",
       "  reducer: rootReducer,",
+      "  preloadedState,",
       "  // don't forget to add middleware from api",
       "  middleware: (getDefaultMiddleWare) => getDefaultMiddleWare().concat([]),",
       "})",
-      "",
-      "export type RootState = ReturnType<typeof rootReducer>;"
+      ""
     ],
     "description": "@reduxjs/toolkit configureStore"
   }
