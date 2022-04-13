@@ -1,7 +1,7 @@
 {
   "react useRef hook": {
     "prefix": "useRef",
-    "body": ["const ${1:name} = useRef${2}<${0}>(null);"],
+    "body": ["const ${1:name} = useRef${2}<${3}>(null);${0}"],
     "description": "react useRef hook"
   }
 }

@@ -1,7 +1,7 @@
 {
   "react-redux useStore hook": {
     "prefix": "useStore",
-    "body": ["const store = useStore${0}();"],
+    "body": ["const store = useStore${1}();${0}"],
     "description": "react-redux useStore hook"
   }
 }

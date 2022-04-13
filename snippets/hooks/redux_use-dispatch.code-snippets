@@ -1,7 +1,7 @@
 {
   "react-redux useDispatch hook": {
     "prefix": "useDispatch",
-    "body": ["const dispatch = useDispatch$0();"],
+    "body": ["const dispatch = useDispatch${1}();${0}"],
     "description": "react-redux useDispatch hook"
   }
 }

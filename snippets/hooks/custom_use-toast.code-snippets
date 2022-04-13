@@ -1,7 +1,7 @@
 {
   "custom useToast hook": {
     "prefix": "useToast",
-    "body": ["const { addOrUpdateToast, removeToast$0 }  = useToast$1();"],
+    "body": ["const { addOrUpdateToast, removeToast$2 }  = useToast$1();${0}"],
     "description": "custom useToast hook"
   }
 }
