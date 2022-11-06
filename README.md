@@ -6,9 +6,7 @@ react, graphql and jest/testing-library
 #### Graphql:
 
 - [graphql-code-generator](https://graphql-code-generator.com)
-- [apollo-server-express](https://www.apollographql.com/docs/)
 - [@apollo/client](https://www.apollographql.com/docs/)
-- [prisma 2](https://prisma.io)
 
 #### Redux:
 
@@ -25,8 +23,6 @@ react, graphql and jest/testing-library
 - [React-Hook-Form](https://react-hook-form.com)
 - [react-redux](https://react-redux.js.org/introduction/quick-start)
 - [NextJS](https://nextjs.org/docs/getting-started)
-- [TippyJS](https://atomiks.github.io/tippyjs/)
-- [@tippyjs/react](https://github.com/atomiks/tippyjs-react)
 
 ## Features
 
@@ -35,20 +31,14 @@ react, graphql and jest/testing-library
 > #### Graphql
 >
 > - gql-client-def (build your schema on the client side)
-> - gql-type-def (builder your schema for the graphql server)
-> - gql-resolve (create resolvers from the graphql-code-generator output)
-> - gql-context (graphql context-boilerplate)
-> - server (graphl server-boilerplate)
-> - codegen.yml (codegen.yaml boilerplate for the backend, creates backend + client files from the same yaml)
+> - gql-type-def (build your schema for the graphql server)
+> - makeVar (use "makeVar" from @apollo/client)
 
 > #### Test
 >
 > - apollo-mock (creates a mock-skeleton for @apollo/client/testing and MockedProvider)
 > - describe (jest describe shortcut)
 > - it (jest it shortcut)
-> - setupTests.ts (a boilerplate fore create-react-app src/setupTests.ts)
-> - test-utils.ts (a boilerplate for @testing-library/react which wraps everything in Redux, Apollo and React-Router)
-> - prisma-test-environment.js (a boilerplate for the prisma-client, that generates a database per test-setup, should be placed in the folder, where the schema.prisma is placed)
 
 > #### Redux
 >
@@ -80,11 +70,5 @@ react, graphql and jest/testing-library
 > ##### NextJs
 >
 > - next-rfc (nextjs NextPage)
-> - next-apollo-server (apollo-server-micro boilerplate for /api/graphql.ts)
 > - useRouter (hook for useRouter)
-> - next-api (create a simple API endpoint)
 
-> ##### TippyJS
->
-> - import-tippyjs (import for React-Component + useSingleton)
-> - useSingleton (hook for TippyJS to use a single Tooltip as source)

@@ -1,6 +1,6 @@
 {
   "react useReducer hook": {
-    "prefix": "useReducer",
+    "prefix": "react-useReducer",
     "body": [
       "  const [state, dispatch] = useReducer$2<Reducer$3<${1:{state: any}}, { type: ${4:'one' | 'two'}; payload: ${5:any} }>>(",
       "    (state, action): ${1} => {",

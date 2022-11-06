@@ -1,6 +1,6 @@
 {
   "@reduxjs/toolkit configureStore": {
-    "prefix": "redux_configurestore",
+    "prefix": "redux-configurestore",
     "body": [
       "import { combineReducers, configureStore } from '@reduxjs/toolkit';",
       "",

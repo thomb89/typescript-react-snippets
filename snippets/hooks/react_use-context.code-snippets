@@ -1,6 +1,6 @@
 {
   "react useContext hook": {
-    "prefix": "useContext",
+    "prefix": "react-useContext",
     "body": ["const ${1:name} = useContext${2}<${3}>($4);${0}"],
     "description": "react useContext hook"
   }

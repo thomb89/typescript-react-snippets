@@ -1,6 +1,6 @@
 {
   "@reduxjs/toolkit createApi": {
-    "prefix": "redux_create-api",
+    "prefix": "redux-create-api",
     "body": [
       "import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';",
       "",
