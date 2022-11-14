@@ -1,6 +1,6 @@
 {
   "react useEffect hook": {
-    "prefix": "react-useEffect",
+    "prefix": "useEffect-react",
     "body": ["useEffect${1}(() => { $0 }, [])"],
     "description": "react useEffect hook"
   }

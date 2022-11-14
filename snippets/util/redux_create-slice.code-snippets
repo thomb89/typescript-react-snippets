@@ -1,6 +1,6 @@
 {
   "@reduxjs/toolkit createSlice": {
-    "prefix": "redux-create-slice",
+    "prefix": "create-slice-redux",
     "body": [
       "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
       "",

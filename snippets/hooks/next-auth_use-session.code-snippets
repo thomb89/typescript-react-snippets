@@ -1,6 +1,6 @@
 {
   "Next-Auth useSession Hook": {
-    "prefix": "next-auth-useSession",
+    "prefix": "useSession-next-auth",
     "body": ["  const [session, _sessionLoading] = useSession${1}();${0}"],
     "description": "next-auth useSession hook"
   }

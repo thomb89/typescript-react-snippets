@@ -1,6 +1,6 @@
 {
   "NextJs useRouter hook": {
-    "prefix": "nextjs-useRouter",
+    "prefix": "useRouter-nextjs",
     "body": ["const router = useRouter${1}();${0}"],
     "description": "NextJs useRouter hook"
   }

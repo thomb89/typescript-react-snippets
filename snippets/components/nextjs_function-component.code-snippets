@@ -1,6 +1,6 @@
 {
   "nextjs Page component": {
-    "prefix": "nextjs-rfc",
+    "prefix": "rfc-nextjs",
     "body": [
       "import { NextPage } from 'next';",
       "// import Link from 'next/link';",

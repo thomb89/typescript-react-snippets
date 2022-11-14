@@ -1,6 +1,6 @@
 {
   "react useState hook": {
-    "prefix": "react-useState",
+    "prefix": "useState-react",
     "body": ["const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState${2}<${3:Type}>($4);${0}"],
     "description": "react useState hook"
   }

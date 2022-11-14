@@ -1,6 +1,6 @@
 {
   "makeVar": {
-    "prefix": "apollo-makeVar",
+    "prefix": "makeVar-apollo",
     "body": ["export const $2 = makeVar<$1>($3);"],
     "description": "makeVar from @apollo/client"
   }

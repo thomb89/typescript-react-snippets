@@ -1,6 +1,6 @@
 {
   "react-redux useSelector hook": {
-    "prefix": "redux-useSelector",
+    "prefix": "useSelector-redux",
     "body": ["const ${1:selector} = useSelector${2}((state: RootState${3}) => state${4:.feature.prop});${0}"],
     "description": "react-redux useSelector hook"
   }

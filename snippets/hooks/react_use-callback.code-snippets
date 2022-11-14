@@ -1,6 +1,6 @@
 {
   "react useCallback hook": {
-    "prefix": "react-useCallback",
+    "prefix": "useCallback-react",
     "body": ["const ${1:name} = useCallback${2}(${3:async} ( ${4} )${5} => { ${6} }, []);${0}"],
     "description": "react useCallback hook"
   }
