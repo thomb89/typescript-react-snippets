@@ -2,7 +2,7 @@
   "create-async-thunk-redux": {
     "prefix": "create-async-thunk-redux",
     "body": [
-      "export const ${1:name} = createAsyncThunk<${2:output}, ${3:input}>(\"${4:type/prefix}\", async (input, thunkApi) => {",
+      "export const ${1:name} = createAppAsyncThunk<${2:output}, ${3:input}>(\"${4:type/prefix}\", async (input, thunkApi) => {",
       "  $0",
       "});",
       ""

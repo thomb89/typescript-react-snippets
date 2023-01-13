@@ -2,7 +2,7 @@
   "@reduxjs/toolkit configureStore": {
     "prefix": "configurestore-redux",
     "body": [
-      "import { configureStore, DeepPartial } from \"@reduxjs/toolkit\";",
+      "import { configureStore, createAsyncThunk, DeepPartial } from \"@reduxjs/toolkit\";",
       "import { useDispatch } from \"react-redux\";",
       "import { apiReducer } from \"./api\";",
       "import { toastReducer } from \"./toast\";",
@@ -20,7 +20,12 @@
       "  });",
       "",
       "export const useAppDispatch = () => useDispatch<ReturnType<typeof getStore>[\"dispatch\"]>();",
-      "export type RootState = ReturnType<typeof getStore>[\"getState\"];",
+      "export type RootState = ReturnType<ReturnType<typeof getStore>[\"getState\"]>;",
+      "",
+      "export const createAppAsyncThunk = createAsyncThunk.withTypes<{",
+      "  state: RootState;",
+      "  dispatch: ReturnType<typeof useAppDispatch>;",
+      "}>();",
       ""
     ],
     "description": "@reduxjs/toolkit configureStore"
