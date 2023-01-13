@@ -1,6 +1,6 @@
 {
   "basic Test Setup with describe": {
-    "prefix": ["jest_describe", "describe"],
+    "prefix": ["test_describe", "describe"],
     "body": ["describe(`${1:ComponentName}`, () => {", "  ${0}", "});", ""],
     "description": "basic Test Setup with describe"
   }

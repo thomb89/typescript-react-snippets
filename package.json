@@ -2,8 +2,8 @@
   "name": "typescript-react-snippets",
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
-  "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, Jest and @testing-library/react",
-  "version": "0.1.17",
+  "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, test and @testing-library/react",
+  "version": "0.1.18",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -20,18 +20,6 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/components/react_function-component.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/components/nextjs_function-component.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/hooks/custom_use-toast.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/hooks/next-auth_use-session.code-snippets"
       },
       {
         "language": "typescriptreact",
@@ -67,10 +55,6 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/hooks/nextjs_use-router.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
         "path": "./snippets/hooks/redux_use-dispatch.code-snippets"
       },
       {
@@ -82,40 +66,20 @@
         "path": "./snippets/hooks/redux_use-store.code-snippets"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/util/test_it.code-snippets"
+      },
+      {
         "language": "typescriptreact",
-        "path": "./snippets/hooks/apollo-client_use-reactive-var.code-snippets"
+        "path": "./snippets/util/test_it.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/util/jest_it.code-snippets"
+        "path": "./snippets/util/test_describe.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/util/jest_it.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/util/jest_describe.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/util/jest_describe.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/util/apollo_mocked-response.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/util/apollo-client_mocked-response.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/util/apollo-client_make-var.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/util/apollo-client_make-var.code-snippets"
+        "path": "./snippets/util/test_describe.code-snippets"
       },
       {
         "language": "typescript",
@@ -139,7 +103,7 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/util/graphql_definition.code-snippets"
+        "path": "./snippets/util/redux_create-async-thunk.code-snippets"
       },
       {
         "language": "json",
