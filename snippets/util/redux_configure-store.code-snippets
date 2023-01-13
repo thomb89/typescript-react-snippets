@@ -26,6 +26,8 @@
       "  state: RootState;",
       "  dispatch: ReturnType<typeof useAppDispatch>;",
       "}>();",
+      "",
+      "export { useSelector, useStore } from \"react-redux\";",
       ""
     ],
     "description": "@reduxjs/toolkit configureStore"
