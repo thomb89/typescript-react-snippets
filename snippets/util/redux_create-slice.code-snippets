@@ -4,7 +4,7 @@
     "body": [
       "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
       "",
-      "const ${1:name}Slice = createSlice({",
+      "export const ${1:name}Slice = createSlice({",
       "  name: '${1}',",
       "  initialState: {",
       "    ${2:id: 0 as number | undefined}",
