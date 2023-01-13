@@ -22,10 +22,10 @@
       "export const useAppDispatch = () => useDispatch<ReturnType<typeof getStore>[\"dispatch\"]>();",
       "export type RootState = ReturnType<ReturnType<typeof getStore>[\"getState\"]>;",
       "",
-      "export const createAppAsyncThunk = createAsyncThunk.withTypes<{",
+      "export type RootAsyncThunk = {",
       "  state: RootState;",
       "  dispatch: ReturnType<typeof useAppDispatch>;",
-      "}>();",
+      "};",
       "",
       "export { useSelector, useStore } from \"react-redux\";",
       ""
