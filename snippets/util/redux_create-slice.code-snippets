@@ -12,7 +12,7 @@
       "  reducers: {",
       "    // use redux-create-reducer",
       "    ${0} ",
-      "  }",
+      "  },",
       "  extraReducers: (builder) => {",
       "    // use to add async thunks to slice",
       "  },",
