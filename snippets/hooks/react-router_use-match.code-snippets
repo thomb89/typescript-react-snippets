@@ -1,0 +1,7 @@
+{
+  "use-match_react-router": {
+    "prefix": "useMatch-react-router",
+    "body": ["  const matches = useMatch$1({$0});"],
+    "description": "use-match_react-router"
+  }
+}
