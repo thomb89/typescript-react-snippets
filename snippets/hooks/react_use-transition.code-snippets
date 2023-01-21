@@ -1,0 +1,7 @@
+{
+  "react_use-transition": {
+    "prefix": "useTransition-react",
+    "body": ["const [isPending, startTransition] = useTransition$1();$0"],
+    "description": "react_use-transition"
+  }
+}

@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, GraphQL, test and @testing-library/react",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -52,6 +52,18 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/hooks/react_use-context.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-imperative-handle.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-transition.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/hooks/react_use-deferrred-value.code-snippets"
       },
       {
         "language": "typescriptreact",
