@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, test and @testing-library/react",
-  "version": "0.1.31",
+  "version": "0.1.32",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -21,19 +21,19 @@
         "path": "./snippets/react.code-snippets"
       },
       {
-        "path": "./snippets/setup/react-hook-form.code-snippets"
+        "path": "./snippets/react-hook-form.code-snippets"
       },
       {
-        "path": "./snippets/setup/react-router.code-snippets"
+        "path": "./snippets/react-router.code-snippets"
       },
       {
-        "path": "./snippets/setup/redux.code-snippets"
+        "path": "./snippets/redux.code-snippets"
       },
       {
-        "path": "./snippets/setup/test.code-snippets"
+        "path": "./snippets/test.code-snippets"
       },
       {
-        "path": "./snippets/setup/json.code-snippets"
+        "path": "./snippets/json.code-snippets"
       }
     ]
   },
