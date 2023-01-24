@@ -1,7 +1,0 @@
-{
-  "use-navigate_react-router": {
-    "prefix": "useNavigate-react-router",
-    "body": ["const location = useLocation$1();"],
-    "description": "use-navigate_react-router"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "react_use-deferred-value": {
-    "prefix": "useDeferred-react",
-    "body": ["const deferred${1/(.*)/${1:/capitalize}/} = useDeferredValue$2($1);$0"],
-    "description": "react_use-deferred-value"
-  }
-}

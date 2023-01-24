@@ -1,7 +1,0 @@
-{
-  "react useMemo hook": {
-    "prefix": "useMemo-react",
-    "body": ["const ${1:value} = useMemo$2(()$3  => { $0 }, [$4]);"],
-    "description": "react useMemo hook"
-  }
-}

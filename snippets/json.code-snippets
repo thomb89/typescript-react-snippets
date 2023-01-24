@@ -1,5 +1,6 @@
 {
   "tsconfig.json": {
+    "scope": "json",
     "prefix": "tsconfig.json",
     "description": "basic tsconfig file",
     "body": [

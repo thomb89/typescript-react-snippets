@@ -1,7 +1,0 @@
-{
-  "Test It": {
-    "prefix": ["test_it", "it"],
-    "body": ["it(`should ${1:do something}`, async () => {", "  $0", "});"],
-    "description": "it for tests"
-  }
-}

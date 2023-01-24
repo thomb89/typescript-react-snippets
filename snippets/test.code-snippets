@@ -1,0 +1,14 @@
+{
+  "basic Test Setup with describe": {
+    "scope": "typescriptreact,typescript",
+    "prefix": ["test_describe", "describe"],
+    "body": ["describe(`${1:ComponentName}`, () => {", "  $0", "});", ""],
+    "description": "basic Test Setup with describe"
+  },
+  "Test It": {
+    "scope": "typescriptreact,typescript",
+    "prefix": ["test_it", "it"],
+    "body": ["it(`should ${1:do something}`, async () => {", "  $0", "});"],
+    "description": "it for tests"
+  }
+}

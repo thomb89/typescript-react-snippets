@@ -1,8 +1,0 @@
-{
-  "@reduxjs/toolkit reducer": {
-    "scope": "typescriptreact, typescript",
-    "prefix": "create-reducer-redux",
-    "body": ["${1:name}: (state, action: PayloadAction<${2:type}>) => {{0},"],
-    "description": "@reduxjs/toolkit reducer for createSlice"
-  }
-}

@@ -1,10 +1,11 @@
 {
-  "react-hook-form useForm hook": {
+  "useForm hook": {
+    "scope": "typescriptreact",
     "prefix": "useForm-react-hook-form",
     "body": [
       "const { register, handleSubmit, formState: { errors, isDirty, isSubmitting, isValid } } = useForm${1}<${2:type}>({mode: 'onTouched', defaultValues: { $0 }});",
       "const onFormSubmit =  handleSubmit(async (values: ${2:type}) => {});"
     ],
-    "description": "react-hook-form useForm hook"
+    "description": "useForm hook"
   }
 }

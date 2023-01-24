@@ -1,0 +1,133 @@
+{
+  "useDispatch hook": {
+    "scope": "typescriptreact",
+    "prefix": "useDispatch-redux",
+    "body": ["const dispatch = useAppDispatch${1}();${0}"],
+    "description": "useDispatch hook"
+  },
+  "useSelector hook": {
+    "scope": "typescriptreact",
+    "prefix": "useSelector-redux",
+    "body": ["const ${1:selector} = useSelector${2}((state: RootState${3}) => state$0);"],
+    "description": "useSelector hook"
+  },
+  "useStore hook": {
+    "scope": "typescriptreact",
+    "prefix": "useStore-redux",
+    "body": ["const store = useStore${1}<RootState${2}>();${0}"],
+    "description": "useStore hook"
+  },
+  "@reduxjs/toolkit/query endpoint": {
+    "scope": "typescript",
+    "prefix": "api-endpoint-redux",
+    "body": [
+      "    ${1:getEndpoint}: builder.${2:query}<${3:output}, ${4:input}>({",
+      "      query: ($5) => ({ url: `${6:path/to/endpoint}`, method: '${7:GET}' $0 }),",
+      "      ",
+      "    }),",
+      ""
+    ],
+    "description": "@reduxjs/toolkit/query endpoint"
+  },
+  "@reduxjs/toolkit configureStore": {
+    "scope": "typescript",
+    "prefix": "configurestore-redux",
+    "body": [
+      "import { configureStore, createAsyncThunk, DeepPartial } from \"@reduxjs/toolkit\";",
+      "import { useDispatch } from \"react-redux\";",
+      "import { apiReducer } from \"./api\";",
+      "import { toastReducer } from \"./toast\";",
+      "",
+      "export const getStore = <T extends {}>(preloadedState?: DeepPartial<T>) =>",
+      "  configureStore({",
+      "    reducer: {",
+      "      toast: toastReducer,",
+      "      api: apiReducer,",
+      "    },",
+      "    preloadedState,",
+      "    devTools: true,",
+      "    // don't forget to add middleware from api",
+      "    middleware: (getDefaultMiddleWare) => getDefaultMiddleWare().concat([]),",
+      "  });",
+      "",
+      "export const useAppDispatch = () => useDispatch<ReturnType<typeof getStore>[\"dispatch\"]>();",
+      "export type RootState = ReturnType<ReturnType<typeof getStore>[\"getState\"]>;",
+      "",
+      "export type RootAsyncThunk = {",
+      "  state: RootState;",
+      "  dispatch: ReturnType<typeof useAppDispatch>;",
+      "};",
+      "",
+      "export { useSelector, useStore } from \"react-redux\";",
+      ""
+    ],
+    "description": "@reduxjs/toolkit configureStore"
+  },
+  "@reduxjs/toolkit createApi": {
+    "scope": "typescript",
+    "prefix": "create-api-redux",
+    "body": [
+      "import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';",
+      "",
+      "export const ${1:apiName} = createApi({",
+      "  reducerPath: '$1',",
+      "  tagTypes: [$4],",
+      "  baseQuery: fetchBaseQuery({",
+      "    baseUrl: '${2:/api}',",
+      "    prepareHeaders: async (_headers, _api) => {",
+      "      $3",
+      "      return _headers;",
+      "    },",
+      "  }),",
+      "  endpoints: (builder) => ({",
+      "    $0",
+      "  });",
+      "});",
+      "",
+      "export const {",
+      "",
+      "} = $1"
+    ],
+    "description": "@reduxjs/toolkit/query/react createApi"
+  },
+  "create-async-thunk-redux": {
+    "scope": "typescript",
+    "prefix": "create-async-thunk-redux",
+    "body": [
+      "export const ${1:name} = createAsyncThunk$2<${3:output}, ${4:input}, RootAsyncThunk$5>(\"${6:type/prefix}\", async (input, thunkApi) => {",
+      "  $0",
+      "});",
+      ""
+    ],
+    "description": "create-async-thunk-redux"
+  },
+  "@reduxjs/toolkit reducer": {
+    "scope": "typescript",
+    "prefix": "create-reducer-redux",
+    "body": ["${1:name}: (state, action: PayloadAction<${2:type}>) => {{0},"],
+    "description": "@reduxjs/toolkit reducer for createSlice"
+  },
+  "@reduxjs/toolkit createSlice": {
+    "scope": "typescript",
+    "prefix": "create-slice-redux",
+    "body": [
+      "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
+      "",
+      "export const ${1:name}Slice = createSlice({",
+      "  name: '$1',",
+      "  initialState: {",
+      "    ${2:id: 0 as number | undefined}",
+      "  },",
+      "  reducers: {",
+      "    // use redux-create-reducer",
+      "    $0",
+      "  },",
+      "  extraReducers: (builder) => {",
+      "    // use to add async thunks to slice",
+      "  },",
+      "})",
+      ""
+    ],
+    "description": "@reduxjs/toolkit createSlice"
+  }
+}

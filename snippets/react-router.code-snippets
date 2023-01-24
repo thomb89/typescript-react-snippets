@@ -1,0 +1,32 @@
+{
+  "useMatch": {
+    "scope": "typescriptreact",
+    "prefix": "useMatch-react-router",
+    "body": ["  const matches = useMatch$1({$0});"],
+    "description": "useMatch"
+  },
+  "useLocation": {
+    "scope": "typescriptreact",
+    "prefix": "useLocation-react-router",
+    "body": ["const location = useLocation$1();"],
+    "description": "useLocation"
+  },
+  "useNavigate": {
+    "scope": "typescriptreact",
+    "prefix": "useNavigate-react-router",
+    "body": ["const navigate = useNavigate$1();"],
+    "description": "useNavigate"
+  },
+  "useNavigation": {
+    "scope": "typescriptreact",
+    "prefix": "useNavigation-react-router",
+    "body": ["const navigation = useNavigation$1();"],
+    "description": "useNavigation"
+  },
+  "useParams": {
+    "scope": "typescriptreact",
+    "prefix": "useParams-react-router",
+    "body": ["const {$0} = useParams$1();"],
+    "description": "useParams"
+  }
+}

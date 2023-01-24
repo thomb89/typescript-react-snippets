@@ -1,7 +1,0 @@
-{
-  "react_use-imperative-handle": {
-    "prefix": "useImperativeHandle-react",
-    "body": ["  const ${1:input}Ref = useRef$3<$2 | null>(null);", "", "  useImperativeHandle$4(ref, () => $1Ref.current!, [$1Ref]);$0", ""],
-    "description": "react_use-imperative-handle"
-  }
-}

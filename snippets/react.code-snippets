@@ -1,0 +1,89 @@
+{
+  "function component": {
+    "scope": "typescriptreact",
+    "prefix": "rfc-react",
+    "body": [
+      "export type ${1/(.*)/${1:/capitalize}/}Props = {",
+      "  ${2:props: type;}",
+      "  className?: string;",
+      "}",
+      "",
+      "export function ${1/(.*)/${1:/capitalize}/}({className, $3}: ${1/(.*)/${1:/capitalize}/}Props): JSX.Element | null => {",
+      "  return (",
+      "    <div className={`${className ?? ''}`}>",
+      "      $0",
+      "    </div>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "create a React Function Component skeleton"
+  },
+  "useCallback hook": {
+    "scope": "typescriptreact",
+    "prefix": "useCallback-react",
+    "body": ["const ${1:name} = useCallback${2}(${3:async} ( $4 )$5 => { $0 }, [$6]);"],
+    "description": "useCallback hook"
+  },
+  "useContext hook": {
+    "scope": "typescriptreact",
+    "prefix": "useContext-react",
+    "body": ["const ${1:name} = useContext$2<$3>($0);"],
+    "description": "useContext hook"
+  },
+  "useDeferredValue hook": {
+    "scope": "typescriptreact",
+    "prefix": "useDeferredValue-react",
+    "body": ["const deferred${1/(.*)/${1:/capitalize}/} = useDeferredValue$2($1);$0"],
+    "description": "useDeferredValue hook"
+  },
+  "useEffect hook": {
+    "scope": "typescriptreact",
+    "prefix": "useEffect-react",
+    "body": ["useEffect$1(() => { $0 }, [$2])"],
+    "description": "useEffect hook"
+  },
+  "useImperativeHandle hook": {
+    "scope": "typescriptreact",
+    "prefix": "useImperativeHandle-react",
+    "body": ["  const ${1:input}Ref = useRef$3<$2 | null>(null);", "", "  useImperativeHandle$4(ref, () => $1Ref.current!, [$1Ref]);$0", ""],
+    "description": "useImperativeHandle hook"
+  },
+  "useMemo hook": {
+    "scope": "typescriptreact",
+    "prefix": "useMemo-react",
+    "body": ["const ${1:value} = useMemo$2(()$3  => { $0 }, [$4]);"],
+    "description": "useMemo hook"
+  },
+  "useReducer hook": {
+    "scope": "typescriptreact",
+    "prefix": "useReducer-react",
+    "body": [
+      "  const [state, dispatch] = useReducer$2<Reducer$3<${1:{state: any}}, { type: ${4:'one' | 'two'}; payload: ${5:any} }>>(",
+      "    (state, action): ${1} => {",
+      "      $0      ",
+      "    }, ${6:{initialState: null}}",
+      "  );",
+      ""
+    ],
+    "description": "useReducer hook"
+  },
+  "useRef hook": {
+    "scope": "typescriptreact",
+    "prefix": "useRef-react",
+    "body": ["const ${1:name} = useRef$2<$3>(null);$0"],
+    "description": "useRef hook"
+  },
+  "useState hook": {
+    "scope": "typescriptreact",
+    "prefix": "useState-react",
+    "body": ["const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState${2}<${3:Type}>($0);"],
+    "description": "useState hook"
+  },
+  "react_use-transition": {
+    "scope": "typescriptreact",
+    "prefix": "useTransition-react",
+    "body": ["const [isPending, startTransition] = useTransition$1();$0"],
+    "description": "react_use-transition"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "use-params_react-router": {
-    "prefix": "useParams-react-router",
-    "body": ["const {$0} = useParams$1();"],
-    "description": "use-params_react-router"
-  }
-}
