@@ -50,13 +50,25 @@
   "loader": {
     "scope": "typescriptreact",
     "prefix": "loaderFunction-react-router",
-    "body": ["export async function loader({ params, request }: LoaderFunctionArgs$1): Promise<$2> {", "  $0", "}", ""],
+    "body": [
+      "// loaders always need to return at least null",
+      "export async function loader({ params, request }: LoaderFunctionArgs$1): Promise<$2> {",
+      "  $0",
+      "}",
+      ""
+    ],
     "description": "boilerplate for an async loader function"
   },
   "action": {
     "scope": "typescriptreact",
     "prefix": "actionFunction-react-router",
-    "body": ["export async function action({ params, request }: ActionFunctionArgs$1): Promise<$2> {", "  $0", "}", ""],
+    "body": [
+      "// actions always need to return at least null",
+      "export async function action({ params, request }: ActionFunctionArgs$1): Promise<$2> {",
+      "  $0",
+      "}",
+      ""
+    ],
     "description": "boilerplate for an async action function"
   }
 }
