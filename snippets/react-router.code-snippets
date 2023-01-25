@@ -38,13 +38,13 @@
   "useLoaderData": {
     "scope": "typescriptreact",
     "prefix": "useLoaderData-react-router",
-    "body": ["const $0 = useLoaderData$1() as $2;"],
+    "body": ["const $0 = useLoaderData$1() as Omit<Awaited<ReturnType<typeof loader>>, \"Response\">;"],
     "description": "useLoaderData"
   },
   "useActionData": {
     "scope": "typescriptreact",
     "prefix": "useActionData-react-router",
-    "body": ["const $0 = useActionData$1() as $2;"],
+    "body": ["const $0 = useActionData$1() as Omit<Awaited<ReturnType<typeof action>>, \"Response\">;"],
     "description": "useActionData"
   },
   "loader": {
@@ -52,7 +52,7 @@
     "prefix": "loaderFunction-react-router",
     "body": [
       "// loaders always need to return at least null",
-      "export async function loader({ params, request }: LoaderFunctionArgs$1): Promise<Response | $2> {",
+      "export async function loader({ params, request }: LoaderFunctionArgs$1): Promise<$2> {",
       "  $0",
       "}",
       ""
@@ -64,7 +64,7 @@
     "prefix": "actionFunction-react-router",
     "body": [
       "// actions always need to return at least null",
-      "export async function action({ params, request }: ActionFunctionArgs$1): Promise<Response | $2> {",
+      "export async function action({ params, request }: ActionFunctionArgs$1): Promise<$2> {",
       "  $0",
       "}",
       ""
