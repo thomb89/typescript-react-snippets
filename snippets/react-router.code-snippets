@@ -38,13 +38,13 @@
   "useLoaderData": {
     "scope": "typescriptreact",
     "prefix": "useLoaderData-react-router",
-    "body": ["const $0 = useLoaderData$1() as Omit<Awaited<ReturnType<typeof loader>>, \"Response\">;"],
+    "body": ["const $0 = useLoaderData$1() as Exclude<Awaited<ReturnType<typeof loader>>, Response>;"],
     "description": "useLoaderData"
   },
   "useActionData": {
     "scope": "typescriptreact",
     "prefix": "useActionData-react-router",
-    "body": ["const $0 = useActionData$1() as Omit<Awaited<ReturnType<typeof action>>, \"Response\">;"],
+    "body": ["const $0 = useActionData$1() as Exclude<Awaited<ReturnType<typeof action>>, Response>;"],
     "description": "useActionData"
   },
   "loader": {
