@@ -38,13 +38,13 @@
   "useLoaderData": {
     "scope": "typescriptreact",
     "prefix": "useLoaderData-react-router",
-    "body": ["onst $0 = useLoaderData$1();"],
+    "body": ["const $0 = useLoaderData$1();"],
     "description": "useLoaderData"
   },
   "useActionData": {
     "scope": "typescriptreact",
     "prefix": "useActionData-react-router",
-    "body": ["onst $0 = useActionData$1();"],
+    "body": ["const $0 = useActionData$1();"],
     "description": "useActionData"
   },
   "loader": {
