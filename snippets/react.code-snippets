@@ -8,14 +8,15 @@
       "  className?: string;",
       "}",
       "",
-      "export function ${1/(.*)/${1:/capitalize}/}({className, $3}: ${1/(.*)/${1:/capitalize}/}Props): JSX.Element | null => {",
+      "export function ${1/(.*)/${1:/capitalize}/}({className, $3}: ${1/(.*)/${1:/capitalize}/}Props): JSX.Element | null {",
       "  return (",
       "    <div className={`${className ?? ''}`}>",
       "      $0",
       "    </div>",
       "  )",
       "}",
-      ""
+      "",
+      "export default ${1/(.*)/${1:/capitalize}/}"
     ],
     "description": "create a React Function Component skeleton"
   },
