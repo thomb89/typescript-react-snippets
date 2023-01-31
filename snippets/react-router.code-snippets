@@ -32,7 +32,7 @@
   "useFetcher": {
     "scope": "typescriptreact",
     "prefix": "useFetcher-react-router",
-    "body": ["const fetcher = useFetcher$1();$0"],
+    "body": ["const ${1:fetcher} = useFetcher$2();$0"],
     "description": "useFetcher"
   },
   "useLoaderData": {
