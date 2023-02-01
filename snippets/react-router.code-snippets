@@ -26,7 +26,7 @@
   "useParams": {
     "scope": "typescriptreact",
     "prefix": "useParams-react-router",
-    "body": ["const { $0 } = useParams$1();$0"],
+    "body": ["const { $0 } = useParams$1();"],
     "description": "useParams"
   },
   "useFetcher": {
