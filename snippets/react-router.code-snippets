@@ -26,7 +26,7 @@
   "useParams": {
     "scope": "typescriptreact",
     "prefix": "useParams-react-router",
-    "body": ["const {$0} = useParams$1();$0"],
+    "body": ["const { $0 } = useParams$1();$0"],
     "description": "useParams"
   },
   "useFetcher": {
@@ -35,16 +35,22 @@
     "body": ["const ${1:fetcher} = useFetcher$2();$0"],
     "description": "useFetcher"
   },
+  "useRevalidator": {
+    "scope": "typescriptreact",
+    "prefix": "useRevalidator-react-router",
+    "body": ["const { $0 } = useRevalidator$1();"],
+    "description": "useRevalidator"
+  },
   "useLoaderData": {
     "scope": "typescriptreact",
     "prefix": "useLoaderData-react-router",
-    "body": ["const $1 = useLoaderData$2() as Exclude<Awaited<ReturnType<typeof loader>>, Response>;$0"],
+    "body": ["const { $0 } = useLoaderData$2() as Exclude<Awaited<ReturnType<typeof loader>>, Response>;"],
     "description": "useLoaderData"
   },
   "useActionData": {
     "scope": "typescriptreact",
     "prefix": "useActionData-react-router",
-    "body": ["const $1 = useActionData$2() as Exclude<Awaited<ReturnType<typeof action>>, Response>;$0"],
+    "body": ["const { $0 } = useActionData$2() as Exclude<Awaited<ReturnType<typeof action>>, Response>;"],
     "description": "useActionData"
   },
   "loader": {
