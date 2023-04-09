@@ -1,0 +1,24 @@
+{
+  "resolver": {
+    "prefix": "resolver-simple_apollo-server",
+    "body": ["import { ${2:Query}Resolvers } from '${1: path to generated file}';", "", "export const ${2}: ${2}Resolvers = {", "  $0", "};"],
+    "description": "resolver for graphql-code-generator"
+  },
+  "partial-resolver": {
+    "prefix": "resolver-custom-parent_apollo-server",
+    "body": [
+      "import { ${2:Query}Resolvers } from '${1:path to generated file}';",
+      "import { Context } from '${4:path to context file}'",
+      "",
+      "export const ${2:resolverName}: ${2}Resolvers<Context, Partial<${3}>> = {",
+      "  $0",
+      "};"
+    ],
+    "description": "resolver for graphql-code-generator"
+  },
+  "resolver-child": {
+    "prefix": "resolver-child-function_apollo-server",
+    "body": ["${1:name}: async ({$2}, {$3}, {$4}) => {", "  $0", "},"],
+    "description": "resolver for graphql-code-generator"
+  }
+}

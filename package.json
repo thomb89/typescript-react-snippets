@@ -3,7 +3,7 @@
   "displayName": "typescript-react-snippets",
   "publisher": "Thomb89",
   "description": "VS-Code Extension that provides snippets for Typescript, React, test and @testing-library/react",
-  "version": "0.1.44",
+  "version": "0.1.45",
   "repository": {
     "url": "https://github.com/Thomb89/typescript-react-snippets.git",
     "type": "git"
@@ -34,6 +34,12 @@
       },
       {
         "path": "./snippets/json.code-snippets"
+      },
+      {
+        "path": "./snippets/apollo-client.code-snippets"
+      },
+      {
+        "path": "./snippets/apollo-server.code-snippets"
       }
     ]
   },
