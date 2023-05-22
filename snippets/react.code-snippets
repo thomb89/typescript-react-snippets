@@ -5,10 +5,11 @@
     "body": [
       "export type ${1/(.*)/${1:/capitalize}/}Props = {",
       "  ${2:props: type;}",
+      "  children: React.ReactNode;",
       "  className?: string;",
       "}",
       "",
-      "export function ${1/(.*)/${1:/capitalize}/}({className, $3}: ${1/(.*)/${1:/capitalize}/}Props): JSX.Element | null {",
+      "export function ${1/(.*)/${1:/capitalize}/}({className, children, $3}: ${1/(.*)/${1:/capitalize}/}Props): JSX.Element | null {",
       "  return (",
       "    <div className={`${className ?? ''}`}>",
       "      $0",
