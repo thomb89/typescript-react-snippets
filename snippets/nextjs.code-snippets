@@ -1,0 +1,27 @@
+{
+  "cookies-nextjs": {
+    "prefix": "cookies-nextjs",
+    "body": ["  const cookieStore = cookies$1();$0"],
+    "description": "https://nextjs.org/docs/app/api-reference/functions/cookies"
+  },
+  "generate-image-metadata-nextjs": {
+    "prefix": "generate-image-metadata-nextjs",
+    "body": ["export function generateImageMetadata({", "  params,", "}: {", "  params: { ${1:slug: string} };", "}) {", "  $0", "}"],
+    "description": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata"
+  },
+  "generate-metadata-nextjs": {
+    "prefix": "generate-metadata-nextjs",
+    "body": ["export async function generateMetadata({ params }: $1Props): Promise<Metadata$2> {", "  return {", "    title: \"$0\",", "  };", "}"],
+    "description": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata"
+  },
+  "generate-static-params-nextjs": {
+    "prefix": "generate-static-params-nextjs",
+    "body": ["export async function generateStaticParams(): Promise<$1Props[]> {", "  $0", "}"],
+    "description": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params"
+  },
+  "headers-nextjs": {
+    "prefix": "headers-nextjs",
+    "body": ["  const headersList = headers$1();$0"],
+    "description": "https://nextjs.org/docs/app/api-reference/functions/headers"
+  }
+}

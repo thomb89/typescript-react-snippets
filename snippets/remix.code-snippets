@@ -1,0 +1,108 @@
+{
+  "useMatch": {
+    "scope": "typescriptreact",
+    "prefix": "useMatch-remix",
+    "body": ["  const matches = useMatch$1({$0});"],
+    "description": "useMatch"
+  },
+  "useLocation": {
+    "scope": "typescriptreact",
+    "prefix": "useLocation-remix",
+    "body": ["const location = useLocation$1();$0"],
+    "description": "useLocation"
+  },
+  "useNavigate": {
+    "scope": "typescriptreact",
+    "prefix": "useNavigate-remix",
+    "body": ["const navigate = useNavigate$1();$0"],
+    "description": "useNavigate"
+  },
+  "useNavigation": {
+    "scope": "typescriptreact",
+    "prefix": "useNavigation-remix",
+    "body": ["const navigation = useNavigation$1();$0"],
+    "description": "useNavigation"
+  },
+  "useParams": {
+    "scope": "typescriptreact",
+    "prefix": "useParams-remix",
+    "body": ["const { $0 } = useParams$1();"],
+    "description": "useParams"
+  },
+  "useFetcher": {
+    "scope": "typescriptreact",
+    "prefix": "useFetcher-remix",
+    "body": ["const ${1:fetcher} = useFetcher$2();$0"],
+    "description": "useFetcher"
+  },
+  "useRevalidator": {
+    "scope": "typescriptreact",
+    "prefix": "useRevalidator-remix",
+    "body": ["const { $0 } = useRevalidator$1();"],
+    "description": "useRevalidator"
+  },
+  "useLoaderData": {
+    "scope": "typescriptreact",
+    "prefix": "useLoaderData-remix",
+    "body": ["const { $0 } = useLoaderData$2() as Exclude<Awaited<ReturnType<typeof loader>>, Response>;"],
+    "description": "useLoaderData"
+  },
+  "useActionData": {
+    "scope": "typescriptreact",
+    "prefix": "useActionData-remix",
+    "body": ["const { $0 } = useActionData$2() as Exclude<Awaited<ReturnType<typeof action>>, Response>;"],
+    "description": "useActionData"
+  },
+  "loader": {
+    "scope": "typescriptreact",
+    "prefix": "loaderFunction-remix",
+    "body": [
+      "export type loaderResult = {$2}",
+      "export async function loader({ params, request }: LoaderFunctionArgs$1): Promise<Response | loaderResult> {",
+      "  $0",
+      "  return {};",
+      "}",
+      ""
+    ],
+    "description": "boilerplate for an async loader function"
+  },
+  "action": {
+    "scope": "typescriptreact",
+    "prefix": "actionFunction-remix",
+    "body": [
+      "export type actionResult = {}",
+      "export async function action({ params, request }: ActionFunctionArgs$1): Promise<Response | actionResult> {",
+      "  $0",
+      "  return {};",
+      "}",
+      ""
+    ],
+    "description": "boilerplate for an async action function"
+  },
+  "clientLoader": {
+    "scope": "typescriptreact",
+    "prefix": "clientLoaderFunction-remix",
+    "body": [
+      "export type clientLoaderResult = {$2}",
+      "export async function clientLoader({ params, request }: ClientLoaderFunctionArgs$1): Promise<Response | loaderResult> {",
+      "  $0",
+      "  return {};",
+      "}",
+      ""
+    ],
+    "description": "boilerplate for an async loader function"
+  },
+  "clientAction": {
+    "scope": "typescriptreact",
+    "prefix": "clientActionFunction-remix",
+    "body": [
+      "export type clientActionResult = {}",
+      "export async function clientAction({ params, request }: ClientActionFunctionArgs$1): Promise<Response | actionResult> {",
+      "  $0",
+      "  return {};",
+      "}",
+      ""
+    ],
+    "description": "boilerplate for an async action function"
+  }
+}
