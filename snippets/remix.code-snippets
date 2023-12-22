@@ -44,13 +44,13 @@
   "useLoaderData": {
     "scope": "typescriptreact",
     "prefix": "useLoaderData-remix",
-    "body": ["const { $0 } = useLoaderData$2() as Exclude<Awaited<ReturnType<typeof loader>>, Response>;"],
+    "body": ["const { $0 } = useLoaderData$2<${3:l}oaderResult$4>();"],
     "description": "useLoaderData"
   },
   "useActionData": {
     "scope": "typescriptreact",
     "prefix": "useActionData-remix",
-    "body": ["const { $0 } = useActionData$2() as Exclude<Awaited<ReturnType<typeof action>>, Response>;"],
+    "body": ["const { $0 } = useActionData$2<${3:a}ctionResult$4>();"],
     "description": "useActionData"
   },
   "loader": {
@@ -90,7 +90,7 @@
       "}",
       ""
     ],
-    "description": "boilerplate for an async loader function"
+    "description": "boilerplate for an async client loader function"
   },
   "clientAction": {
     "scope": "typescriptreact",
@@ -103,6 +103,6 @@
       "}",
       ""
     ],
-    "description": "boilerplate for an async action function"
+    "description": "boilerplate for an async client action function"
   }
 }
