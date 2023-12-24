@@ -1,0 +1,31 @@
+{
+  "create a new slice for zustand": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "create-slice-zustand",
+    "body": [
+      "import type { StateCreator } from \"zustand\";",
+      "",
+      "export type ${1}Slice = {",
+      "  $0"
+      "};",
+      "export const create${1/(.*)/${1:/capitalize}/}Slice: StateCreator<${1}Slice, [], [], ${1}Slice> = (set) => ({",
+      "  ",
+      "});",
+      ""
+    ],
+    "description": "create a new slice for zustand"
+  },
+  "create a new store with zustand": {    
+    "scope": "typescriptreact,typescript",
+    "prefix": "create-store-zustand",
+    "body": [
+      "import { create } from \"zustand\";",
+      "",
+      "export const useStore = create<${1:aSlice & bSlice}>()((...a) => ({",
+      "  $0",
+      "}));",
+      ""
+    ],
+    "description": "create a new store with zustand"
+  }
+}
