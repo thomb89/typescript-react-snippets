@@ -84,7 +84,7 @@
     "prefix": "clientLoaderFunction-remix",
     "body": [
       "export type clientLoaderResult = {$2}",
-      "export async function clientLoader({ params, request }: ClientLoaderFunctionArgs$1): Promise<Response | loaderResult> {",
+      "export async function clientLoader({ params, request }: ClientLoaderFunctionArgs$1): Promise<Response | clientLoaderResult> {",
       "  $0",
       "  return {};",
       "}",
@@ -97,7 +97,7 @@
     "prefix": "clientActionFunction-remix",
     "body": [
       "export type clientActionResult = {}",
-      "export async function clientAction({ params, request }: ClientActionFunctionArgs$1): Promise<Response | actionResult> {",
+      "export async function clientAction({ params, request }: ClientActionFunctionArgs$1): Promise<Response | clientActionResult> {",
       "  $0",
       "  return {};",
       "}",

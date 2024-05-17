@@ -1,43 +1,41 @@
 {
-  "name": "typescript-react-snippets",
-  "displayName": "typescript-react-snippets",
-  "publisher": "Thomb89",
-  "description": "VS-Code Extension that provides snippets for Typescript, React, test and @testing-library/react",
-  "version": "0.1.50",
-  "repository": {
-    "url": "https://github.com/Thomb89/typescript-react-snippets.git",
-    "type": "git"
-  },
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.50.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "path": "./snippets/react.code-snippets"
-      },
-      {
-        "path": "./snippets/react-hook-form.code-snippets"
-      },
-      {
-        "path": "./snippets/test.code-snippets"
-      },
-      {
-        "path": "./snippets/json.code-snippets"
-      },
-      {
-        "path": "./snippets/remix.code-snippets"
-      },
-      {
-        "path": "./snippets/zustand.code-snippets"
-      }
-    ]
-  },
-  "devDependencies": {
-    "vsce": "^2.15.0"
-  }
+	"name": "typescript-react-snippets",
+	"displayName": "typescript-react-snippets",
+	"publisher": "Thomb89",
+	"description": "VS-Code Extension that provides snippets for Typescript, React, test and @testing-library/react",
+	"version": "0.1.51",
+	"repository": {
+		"url": "https://github.com/Thomb89/typescript-react-snippets.git",
+		"type": "git"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": ["Snippets"],
+	"contributes": {
+		"snippets": [
+			{
+				"path": "./snippets/react.code-snippets"
+			},
+			{
+				"path": "./snippets/react-hook-form.code-snippets"
+			},
+			{
+				"path": "./snippets/test.code-snippets"
+			},
+			{
+				"path": "./snippets/json.code-snippets"
+			},
+			{
+				"path": "./snippets/remix.code-snippets"
+			},
+			{
+				"path": "./snippets/zustand.code-snippets"
+			}
+		]
+	},
+	"devDependencies": {
+		"vsce": "^2.15.0"
+	}
 }
